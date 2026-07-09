@@ -2,6 +2,15 @@
 
 Full Spectrum Lab is the public open-source home of the Full Spectrum ecosystem.
 
+## Fast visual entry
+
+If you only have a few minutes, start from the shared public diagrams:
+
+- [From Ethical Appeal to Engineering Compilation](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/diagrams/public-intro/from-ethical-appeal-to-engineering-compilation.png)
+- [Why AI Needs a Relationship Protocol](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/diagrams/protocol-system/why-ai-needs-relationship-protocol.png)
+- [Four-Layer Architecture](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/diagrams/architecture/four-layer-architecture-v01.png)
+- [Full visual index](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/visual-index.md)
+
 ## Start from the layer you actually need
 
 We are organizing the project into a clearer four-part structure so different collaborators can enter from the layer they actually need:
@@ -66,6 +75,7 @@ In short: we are exploring a governance stack for human-AI and multi-agent inter
 ## Good first clicks
 
 - Commons map: [START_HERE.md](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/START_HERE.md)
+- Commons visual packs: [Visual Index](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/visual-index.md)
 - Protocol minimal path: [Minimal Integration Guide](https://github.com/full-spectrum-lab/full-spectrum-protocol/blob/main/docs/getting-started/minimal-integration-guide.md)
 - Enterprise trial path: [Try It Locally](https://github.com/full-spectrum-lab/full-spectrum-enterprise-governance/blob/main/docs/try-it-locally.md)
 - Ecommerce governance anchor: [Ecommerce Knowledge-Source Adapter Spec v0.1](https://github.com/full-spectrum-lab/full-spectrum-enterprise-governance/blob/main/docs/ecommerce-knowledge-source-adapter-spec-v0.1.md)
