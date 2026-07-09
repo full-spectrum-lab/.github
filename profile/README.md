@@ -62,7 +62,7 @@ What is already happening:
 
 - public repo split is established,
 - engine public preview is online,
-- protocol schemas and RFC scaffolding are being整理 into cleaner public form,
+- protocol schemas and RFC scaffolding are being organized into cleaner public form,
 - enterprise-facing examples are being extracted from internal materials.
 
 What is not claimed yet:
