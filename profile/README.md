@@ -2,6 +2,8 @@
 
 Full Spectrum Lab is the public open-source home of the Full Spectrum ecosystem.
 
+## Start from the layer you actually need
+
 We are organizing the project into a clearer four-part structure so different collaborators can enter from the layer they actually need:
 
 - **[full-spectrum-protocol](https://github.com/full-spectrum-lab/full-spectrum-protocol)**  
@@ -15,6 +17,21 @@ We are organizing the project into a clearer four-part structure so different co
 
 - **[full-spectrum-commons](https://github.com/full-spectrum-lab/full-spectrum-commons)**  
   Shared diagrams, ecosystem maps, public entry materials, and cross-repository navigation assets.
+
+## Public adoption path
+
+The ecosystem is designed to be adopted in stages:
+
+1. **local internal engine use**  
+   Try governance locally without joining an external network.
+2. **cell-level declaration**  
+   Make subject identity, capability, boundary, and responsibility explicit.
+3. **cross-node compatibility**  
+   Use shared audit envelopes when multiple subjects need to interoperate.
+4. **stronger network coordination**  
+   Add deeper review, conformance, and wider ecosystem participation only when needed.
+
+That means a company can begin with one internal governance use case first. It does **not** need to join a full protocol network on day one.
 
 ## What this lab is trying to do
 
@@ -45,6 +62,13 @@ In short: we are exploring a governance stack for human-AI and multi-agent inter
 - If you want the **protocol definitions**, go to **[full-spectrum-protocol](https://github.com/full-spectrum-lab/full-spectrum-protocol)**.
 - If you want the **runnable engine**, go to **[full-spectrum-engine](https://github.com/full-spectrum-lab/full-spectrum-engine)**.
 - If you want the **enterprise-facing package**, go to **[full-spectrum-enterprise-governance](https://github.com/full-spectrum-lab/full-spectrum-enterprise-governance)**.
+
+## Good first clicks
+
+- Commons map: [START_HERE.md](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/START_HERE.md)
+- Protocol minimal path: [Minimal Integration Guide](https://github.com/full-spectrum-lab/full-spectrum-protocol/blob/main/docs/getting-started/minimal-integration-guide.md)
+- Enterprise trial path: [Try It Locally](https://github.com/full-spectrum-lab/full-spectrum-enterprise-governance/blob/main/docs/try-it-locally.md)
+- Ecommerce governance anchor: [Ecommerce Knowledge-Source Adapter Spec v0.1](https://github.com/full-spectrum-lab/full-spectrum-enterprise-governance/blob/main/docs/ecommerce-knowledge-source-adapter-spec-v0.1.md)
 
 ## External references
 
