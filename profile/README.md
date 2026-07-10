@@ -2,6 +2,8 @@
 
 Full Spectrum Lab is the public open-source home of the Full Spectrum ecosystem.
 
+[![full spectrum overview](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/diagrams/public-intro/full-spectrum-governance-community-overview.png?raw=1)](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/diagrams/public-intro/full-spectrum-governance-community-overview.png)
+
 ## Fast visual entry
 
 If you only have a few minutes, start from the shared public diagrams:
