@@ -32,9 +32,13 @@ Full Spectrum Lab builds an open protocol stack for AI-era governance: schemas, 
 | Governance Event | Minimal record for an AI-related action before risk interpretation. | [spec](https://github.com/full-spectrum-lab/full-spectrum-protocol/blob/main/specs/governance-event.md) |
 | Risk Alert | Minimal object for detected or suspected reviewable risk. | [spec](https://github.com/full-spectrum-lab/full-spectrum-protocol/blob/main/specs/risk-alert.md) |
 | Audit Trace | Minimal trace for review, escalation, decision, execution, or recovery. | [spec](https://github.com/full-spectrum-lab/full-spectrum-protocol/blob/main/specs/audit-trace.md) |
+| I/O Contract | Minimal mapping contract from business input/output to governance objects via a Business Adapter. | [spec](https://github.com/full-spectrum-lab/full-spectrum-protocol/blob/main/specs/io-contract.md) |
+| L1 Cell Protocol | Subject access, identity tiering and certification domain before entering governance workflows. | [spec](https://github.com/full-spectrum-lab/full-spectrum-protocol/blob/main/specs/l1-cell-protocol.md) |
+| Governance Output Envelope | Standard engine output object bundling result, risk vector, safety action, writeback, privacy, conformance. | [spec](https://github.com/full-spectrum-lab/full-spectrum-protocol/blob/main/specs/governance-output-envelope.md) |
+| Enterprise Writeback | Enterprise-consumable decision object gating auto-reply, commitment and execution. | [spec](https://github.com/full-spectrum-lab/full-spectrum-protocol/blob/main/specs/enterprise-writeback.md) |
 | All specifications | Index of current protocol objects. | [specs/README](https://github.com/full-spectrum-lab/full-spectrum-protocol/blob/main/specs/README.md) |
 
-Additional specs (I/O Contract, L1 Cell Protocol, Governance Output Envelope, Enterprise Writeback) are being added to `full-spectrum-protocol/specs`.
+These four specs are now available in `full-spectrum-protocol/specs`.
 
 ## Use Cases
 
