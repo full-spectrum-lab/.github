@@ -19,6 +19,7 @@ Full Spectrum Lab builds an open protocol stack for AI-era governance: schemas, 
 
 - **[Run a local governance example](https://github.com/full-spectrum-lab/full-spectrum-engine)** — clone the engine and run a synthetic scenario in minutes.
 - **[Validate a Governance Event](https://github.com/full-spectrum-lab/full-spectrum-protocol/blob/main/specs/governance-event.md)** — read the minimal action record spec.
+| Canonical Context | Normalized, governance-ready view the adapter produces from raw input (actor, action, authority, facts, unknowns, risk axes, privacy). | [spec](https://github.com/full-spectrum-lab/full-spectrum-protocol/blob/main/specs/canonical-context.md) |
 - **[Try an ecommerce AI customer-service case](https://github.com/full-spectrum-lab/full-spectrum-enterprise-governance/blob/main/cases/refund-overcommitment/README.md)** — refund over-commitment example.
 - **[Inspect RiskVector / AuditTrace outputs](https://github.com/full-spectrum-lab/full-spectrum-protocol/blob/main/specs/audit-trace.md)** — see the trace spec.
 - **[View the four-layer architecture diagrams](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/visual-index.md)** — start from the shared visual index.
