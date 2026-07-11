@@ -1,110 +1,75 @@
 # Full Spectrum Lab
 
-Full Spectrum Lab is the public open-source home of the Full Spectrum ecosystem.
+Open governance protocol and local-first runtime for auditable AI agent behavior, Governance Events, RiskVector, human review, and enterprise AI governance.
 
-[![full spectrum overview](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/diagrams/public-intro/full-spectrum-governance-community-overview.png?raw=1)](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/diagrams/public-intro/full-spectrum-governance-community-overview.png)
+**[Website](https://fullspectrumprotocol.com/index.html)** · **[Quick Start](https://github.com/full-spectrum-lab/full-spectrum-engine)** · **[Visual Index](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/visual-index.md)** · **[Protocol Guide](https://fullspectrumprotocol.com/protocols/guide.html)** · **[Architecture](https://fullspectrumprotocol.com/architecture.html)**
 
-## Fast visual entry
+Full Spectrum Lab builds an open protocol stack for AI-era governance: schemas, adapters, local runtime, enterprise cases, audit traces, and human-review workflows.
 
-If you only have a few minutes, start from the shared public diagrams:
+## Projects
 
-- [From Ethical Appeal to Engineering Compilation](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/diagrams/public-intro/from-ethical-appeal-to-engineering-compilation.png)
-- [Why AI Needs a Relationship Protocol](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/diagrams/protocol-system/why-ai-needs-relationship-protocol.png)
-- [Four-Layer Architecture](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/diagrams/architecture/four-layer-architecture-v01.png)
-- [Full visual index](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/visual-index.md)
+| Project | What it is | Start |
+|---|---|---|
+| **[full-spectrum-protocol](https://github.com/full-spectrum-lab/full-spectrum-protocol)** | Source of truth for RFCs, schemas, Governance Events, I/O Contract, Cell Protocol and conformance rules. | [START_HERE](https://github.com/full-spectrum-lab/full-spectrum-protocol/blob/main/START_HERE.md) |
+| **[full-spectrum-engine](https://github.com/full-spectrum-lab/full-spectrum-engine)** | Local-first runtime for RiskVector, Runestone, AuditTrace, reports and reproducible simulation. | [Quick Start](https://github.com/full-spectrum-lab/full-spectrum-engine) |
+| **[full-spectrum-enterprise-governance](https://github.com/full-spectrum-lab/full-spectrum-enterprise-governance)** | Enterprise AI customer-service governance cases, adapters, reports and human-review workflow. | [Try It Locally](https://github.com/full-spectrum-lab/full-spectrum-enterprise-governance/blob/main/docs/try-it-locally.md) |
+| **[full-spectrum-commons](https://github.com/full-spectrum-lab/full-spectrum-commons)** | Diagrams, ecosystem maps, glossary, public entry materials and cross-repo navigation. | [Visual Index](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/visual-index.md) |
 
-## Start from the layer you actually need
+## What can I use today?
 
-We are organizing the project into a clearer four-part structure so different collaborators can enter from the layer they actually need:
+- **[Run a local governance example](https://github.com/full-spectrum-lab/full-spectrum-engine)** — clone the engine and run a synthetic scenario in minutes.
+- **[Validate a Governance Event](https://github.com/full-spectrum-lab/full-spectrum-protocol/blob/main/specs/governance-event.md)** — read the minimal action record spec.
+- **[Try an ecommerce AI customer-service case](https://github.com/full-spectrum-lab/full-spectrum-enterprise-governance/blob/main/cases/refund-overcommitment/README.md)** — refund over-commitment example.
+- **[Inspect RiskVector / AuditTrace outputs](https://github.com/full-spectrum-lab/full-spectrum-protocol/blob/main/specs/audit-trace.md)** — see the trace spec.
+- **[View the four-layer architecture diagrams](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/visual-index.md)** — start from the shared visual index.
 
-- **[full-spectrum-protocol](https://github.com/full-spectrum-lab/full-spectrum-protocol)**  
-  Cross-subject governance protocol, RFCs, schemas, conformance, and protocol-network drafts.
+## Core Specs
 
-- **[full-spectrum-engine](https://github.com/full-spectrum-lab/full-spectrum-engine)**  
-  Local-first runnable governance engine with RiskVector, Runestone, AuditTrace, and reproducible simulation samples.
+| Spec | Purpose | Link |
+|---|---|---|
+| Identity Claim | Minimal declaration of who or what is acting. | [spec](https://github.com/full-spectrum-lab/full-spectrum-protocol/blob/main/specs/identity-claim.md) |
+| Capability Declaration | Minimal declaration of what a subject can and cannot do. | [spec](https://github.com/full-spectrum-lab/full-spectrum-protocol/blob/main/specs/capability-declaration.md) |
+| Governance Event | Minimal record for an AI-related action before risk interpretation. | [spec](https://github.com/full-spectrum-lab/full-spectrum-protocol/blob/main/specs/governance-event.md) |
+| Risk Alert | Minimal object for detected or suspected reviewable risk. | [spec](https://github.com/full-spectrum-lab/full-spectrum-protocol/blob/main/specs/risk-alert.md) |
+| Audit Trace | Minimal trace for review, escalation, decision, execution, or recovery. | [spec](https://github.com/full-spectrum-lab/full-spectrum-protocol/blob/main/specs/audit-trace.md) |
+| All specifications | Index of current protocol objects. | [specs/README](https://github.com/full-spectrum-lab/full-spectrum-protocol/blob/main/specs/README.md) |
 
-- **[full-spectrum-enterprise-governance](https://github.com/full-spectrum-lab/full-spectrum-enterprise-governance)**  
-  Enterprise application layer for AI customer service quality inspection, risk review, human review workflow, and deployment guidance.
+Additional specs (I/O Contract, L1 Cell Protocol, Governance Output Envelope, Enterprise Writeback) are being added to `full-spectrum-protocol/specs`.
 
-- **[full-spectrum-commons](https://github.com/full-spectrum-lab/full-spectrum-commons)**  
-  Shared diagrams, ecosystem maps, public entry materials, and cross-repository navigation assets.
+## Use Cases
 
-## Public adoption path
+- **[AI customer-service refund over-commitment](https://github.com/full-spectrum-lab/full-spectrum-enterprise-governance/blob/main/cases/refund-overcommitment/README.md)** — when the AI promises a refund it cannot authorize.
+- **[Ecommerce knowledge-source conflict](https://github.com/full-spectrum-lab/full-spectrum-enterprise-governance/blob/main/cases/ecommerce-knowledge-conflict/README.md)** — conflicting product knowledge surfaces in replies.
+- **[Human review workflow](https://github.com/full-spectrum-lab/full-spectrum-enterprise-governance/blob/main/docs/try-it-locally.md)** — how human review re-enters the loop.
+- **[Local trial case pack](https://github.com/full-spectrum-lab/full-spectrum-enterprise-governance/blob/main/docs/local-trial-case-pack.md)** — run a desensitized case locally.
 
-The ecosystem is designed to be adopted in stages:
+## Framework & Research
 
-1. **local internal engine use**  
-   Try governance locally without joining an external network.
-2. **cell-level declaration**  
-   Make subject identity, capability, boundary, and responsibility explicit.
-3. **cross-node compatibility**  
-   Use shared audit envelopes when multiple subjects need to interoperate.
-4. **stronger network coordination**  
-   Add deeper review, conformance, and wider ecosystem participation only when needed.
+- **[Four-Layer Architecture](https://fullspectrumprotocol.com/architecture.html)** — the recursive governance stack.
+- **[Protocol Guide](https://fullspectrumprotocol.com/protocols/guide.html)** — how the protocol fits together.
+- **[Technical Spec](https://fullspectrumprotocol.com/protocols/tech-spec.html)** — engineering-facing details.
+- **[FSHI case entry](https://fullspectrumprotocol.com/fshi-index.html)** — AI customer-service quality inspection use case.
+- **[Protocol Outline & RFCs](https://github.com/full-spectrum-lab/full-spectrum-protocol/blob/main/START_HERE.md)** — start from START_HERE.
 
-That means a company can begin with one internal governance use case first. It does **not** need to join a full protocol network on day one.
+## Community
 
-## What this lab is trying to do
+- **[Official site](https://fullspectrumprotocol.com/index.html)** — overview, architecture, protocol guide.
+- **[Contributing](https://github.com/full-spectrum-lab/full-spectrum-protocol/blob/main/CONTRIBUTING.md)** — how to propose changes.
+- **[Governance](https://github.com/full-spectrum-lab/full-spectrum-protocol/blob/main/GOVERNANCE.md)** — how decisions are made.
 
-Most current AI infrastructure standards solve connectivity:
+## Current Stage
 
-- how agents find each other,
-- how tools are called,
-- how messages move.
+Full Spectrum Lab is in early public build-out.
 
-Full Spectrum focuses on the layer above that:
+Current focus:
 
-- why an action is allowed,
-- who is accountable,
-- what risk was detected,
-- what trace should be preserved,
-- how a human or organization can review the result later.
+- protocol schemas and RFCs
+- local-first engine preview
+- enterprise AI customer-service examples
+- conformance and testing guides
 
-In short: we are exploring a governance stack for human-AI and multi-agent interaction that is:
+Not claimed yet:
 
-- local-first where possible,
-- auditable by design,
-- schema-driven,
-- evolvable through RFCs and examples.
-
-## Recommended entry path
-
-- If you want the **big picture**, start from **[full-spectrum-commons](https://github.com/full-spectrum-lab/full-spectrum-commons)**.
-- If you want the **protocol definitions**, go to **[full-spectrum-protocol](https://github.com/full-spectrum-lab/full-spectrum-protocol)**.
-- If you want the **runnable engine**, go to **[full-spectrum-engine](https://github.com/full-spectrum-lab/full-spectrum-engine)**.
-- If you want the **enterprise-facing package**, go to **[full-spectrum-enterprise-governance](https://github.com/full-spectrum-lab/full-spectrum-enterprise-governance)**.
-
-## Good first clicks
-
-- Commons map: [START_HERE.md](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/START_HERE.md)
-- Commons visual packs: [Visual Index](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/visual-index.md)
-- Protocol minimal path: [Minimal Integration Guide](https://github.com/full-spectrum-lab/full-spectrum-protocol/blob/main/docs/getting-started/minimal-integration-guide.md)
-- Enterprise trial path: [Try It Locally](https://github.com/full-spectrum-lab/full-spectrum-enterprise-governance/blob/main/docs/try-it-locally.md)
-- Ecommerce governance anchor: [Ecommerce Knowledge-Source Adapter Spec v0.1](https://github.com/full-spectrum-lab/full-spectrum-enterprise-governance/blob/main/docs/ecommerce-knowledge-source-adapter-spec-v0.1.md)
-
-## External references
-
-- Official site: [fullspectrumprotocol.com](https://fullspectrumprotocol.com/index.html)
-- Architecture: [fullspectrumprotocol.com/architecture.html](https://fullspectrumprotocol.com/architecture.html)
-- Protocol guide: [fullspectrumprotocol.com/protocols/guide.html](https://fullspectrumprotocol.com/protocols/guide.html)
-- Technical spec: [fullspectrumprotocol.com/protocols/tech-spec.html](https://fullspectrumprotocol.com/protocols/tech-spec.html)
-- FSHI case entry: [fullspectrumprotocol.com/fshi-index.html](https://fullspectrumprotocol.com/fshi-index.html)
-
-## Current stage
-
-This organization is still in an early public build-out stage.
-
-What is already happening:
-
-- public repo split is established,
-- engine public preview is online,
-- protocol schemas and RFC scaffolding are being organized into cleaner public form,
-- enterprise-facing examples are being extracted from internal materials.
-
-What is not claimed yet:
-
-- no claim of final standard status,
-- no claim that all protocol layers are complete,
-- no claim that all enterprise packages are production-ready.
-
-We are building the public structure in a way that makes future community review, implementation, and critique easier.
+- no final standard status
+- no production compliance guarantee
+- no complete protocol-network implementation
