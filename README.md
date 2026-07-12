@@ -1,37 +1,29 @@
-# Full Spectrum Lab
+# Full Spectrum Lab Organization Profile
 
-Open-source lab for Full Spectrum Protocol, AI agent governance, Governance Events, and local-first AI safety runtimes.
+This repository maintains the public GitHub organization entry page for [Full Spectrum Lab](https://github.com/full-spectrum-lab).
 
-Official site: [fullspectrumprotocol.com](https://fullspectrumprotocol.com/index.html)
+## Public entry
 
-## Repositories
+- [Organization profile source](./profile/README.md)
+- [Official website](https://fullspectrumprotocol.com/index.html)
+- [Protocol](https://github.com/full-spectrum-lab/full-spectrum-protocol)
+- [Local Observer Engine](https://github.com/full-spectrum-lab/full-spectrum-engine)
+- [Enterprise Governance Cases](https://github.com/full-spectrum-lab/full-spectrum-enterprise-governance)
+- [Commons, Evidence, Research and Public Writing](https://github.com/full-spectrum-lab/full-spectrum-commons)
 
-- full-spectrum-protocol  
-  Protocol specs, RFCs, Governance Event schemas, identity and boundary definitions.
+## Positioning
 
-- full-spectrum-engine  
-  Local-first runtime for turning AI actions into auditable Governance Events.
+The public stack is organized as:
 
-- full-spectrum-enterprise-governance  
-  Enterprise AI customer-service governance cases, reports, adapters, and deployment patterns.
+```text
+Protocol contracts
+→ local Observer Engine
+→ enterprise cases and review workflows
+→ evidence, research and public orientation
+```
 
-- full-spectrum-commons  
-  Cross-repo indexes, diagrams, glossary, templates, public coordination notes, and organization-level entry materials.
+The first-generation observer can be used locally and offline. It does not require an organization to join a public identity, certification, or protocol network, and it does not execute final enterprise actions.
 
-## Start here
+## Boundary
 
-1. Want to understand the protocol? -> full-spectrum-protocol
-2. Want to run a local example? -> full-spectrum-engine
-3. Want enterprise AI customer-service cases? -> full-spectrum-enterprise-governance
-4. Want project maps and shared assets? -> full-spectrum-commons
-
-## Public positioning
-
-This organization is structured as a staged public entry point:
-
-- `full-spectrum-protocol` defines shared governance contracts,
-- `full-spectrum-engine` provides the runnable local-first governance core,
-- `full-spectrum-enterprise-governance` carries enterprise-facing cases and adapters,
-- `full-spectrum-commons` holds shared diagrams, maps, and cross-repository navigation.
-
-The adoption path starts with local internal use. Joining a wider protocol network is optional and staged.
+The organization is in early public build-out. It does not claim final standard status, regulatory approval, production compliance guarantees, completed protocol-network interoperability, or peer review for public working papers unless explicitly stated.

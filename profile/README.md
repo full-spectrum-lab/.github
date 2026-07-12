@@ -2,7 +2,15 @@
 
 ### Open governance protocol and local-first runtime for auditable AI agent behavior
 
-[Website](https://fullspectrumprotocol.com/index.html) · [Protocol Guide](https://fullspectrumprotocol.com/protocols/guide.html) · [Architecture](https://fullspectrumprotocol.com/architecture.html) · [Technical Spec](https://fullspectrumprotocol.com/protocols/tech-spec.html) · [FSHI Case](https://fullspectrumprotocol.com/fshi-index.html)
+[Run the Engine](https://github.com/full-spectrum-lab/full-spectrum-engine#quick-start) · [Read the Protocol](https://github.com/full-spectrum-lab/full-spectrum-protocol/blob/main/START_HERE.md) · [Try an Enterprise Case](https://github.com/full-spectrum-lab/full-spectrum-enterprise-governance/blob/main/docs/try-it-locally.md) · [Explore the Framework](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/visual-index.md)
+
+[![Engine CI](https://github.com/full-spectrum-lab/full-spectrum-engine/actions/workflows/ci.yml/badge.svg)](https://github.com/full-spectrum-lab/full-spectrum-engine/actions/workflows/ci.yml)
+[![Protocol Schemas](https://github.com/full-spectrum-lab/full-spectrum-protocol/actions/workflows/schema-check.yml/badge.svg)](https://github.com/full-spectrum-lab/full-spectrum-protocol/actions/workflows/schema-check.yml)
+[![Engine v1.0.0](https://img.shields.io/badge/engine-v1.0.0-success)](https://github.com/full-spectrum-lab/full-spectrum-engine/releases)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue)](https://github.com/full-spectrum-lab/full-spectrum-engine)
+[![Local First](https://img.shields.io/badge/runtime-local--first-5b5bd6)](https://github.com/full-spectrum-lab/full-spectrum-engine#current-release-boundary)
+
+[Evidence & Status](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/evidence-and-status.md) · [Research](https://github.com/full-spectrum-lab/full-spectrum-commons/tree/main/research) · [Public Writing](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/public-writing-and-origins.md) · [Website](https://fullspectrumprotocol.com/index.html)
 
 ---
 
@@ -47,6 +55,26 @@ The current public stack combines protocol schemas, runnable local engine code, 
 - Inspect enterprise-facing customer-service governance examples.
 - Use the visual index to understand the four-layer architecture.
 
+## Start in 10 Minutes
+
+| Goal | Start | Result |
+| --- | --- | --- |
+| Run the local observer engine | [Engine Quick Start](https://github.com/full-spectrum-lab/full-spectrum-engine#quick-start) | Deterministic simulation and audit artifacts |
+| Generate a governance object chain | [Governance Chain CLI](https://github.com/full-spectrum-lab/full-spectrum-engine#governance-chain-cli-ten-minute-runnable) | Schema-validated ecommerce objects and report |
+| Validate protocol objects | [Protocol schema tools](https://github.com/full-spectrum-lab/full-spectrum-protocol/tree/main/tools) | Machine-readable conformance result |
+| Inspect an enterprise case | [Ecommerce case](https://github.com/full-spectrum-lab/full-spectrum-enterprise-governance/tree/main/cases/ecommerce-knowledge-conflict) | Synthetic/desensitized review workflow |
+| Understand the system | [Visual Index](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/visual-index.md) | Architecture and repository map |
+
+## Open Capabilities
+
+| Capability | Where it lives |
+| --- | --- |
+| Governance-chain generation and validation | `full-spectrum-engine` |
+| Governance Event, I/O and audit schemas | `full-spectrum-protocol` |
+| Local Observer Engine, RiskVector and Runestone | `full-spectrum-engine` |
+| Ecommerce governance and human-review cases | `full-spectrum-enterprise-governance` |
+| Evidence status, diagrams and research index | `full-spectrum-commons` |
+
 ## Core Protocol Objects
 
 | Object | Purpose | Link |
@@ -62,30 +90,42 @@ The current public stack combines protocol schemas, runnable local engine code, 
 
 ## Framework
 
-Full Spectrum is organized around a staged adoption path:
+Full Spectrum follows an observer-first adoption path:
 
-1. Local internal governance engine use
-2. Cell-level declaration of identity, capability, boundary, and responsibility
-3. Shared protocol objects for audit and interoperability
-4. Cross-node compatibility and stronger conformance only when needed
+1. Run the local Observer Engine on enterprise-controlled data.
+2. Add an optional enterprise-local subject declaration.
+3. Use stable I/O contracts and Profile-driven evaluation.
+4. Add replay and audit hardening before controlled enterprise trials.
+5. Consider certified identity or cross-node interoperability only when needed.
 
-This means an organization can start with one internal AI governance use case first. It does not need to join a full protocol network on day one.
+An organization does not need public DID, community membership, external certification, or a protocol network to use the first-generation observer. The observer produces analysis, warnings, reports, and audit records; it does not execute final enterprise actions.
 
 > [Four-Layer Architecture](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/diagrams/architecture/four-layer-architecture-v01.png) · [Why AI Needs a Relationship Protocol](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/diagrams/protocol-system/why-ai-needs-relationship-protocol.png) · [Full Visual Index](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/visual-index.md)
 
 ## Research & Cases
 
+- [WP-001: Governance Semantics and a Local-First Observer Engine](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/research/working-papers/wp-001-governance-semantics-and-local-observer-engine.md) — public working paper, not peer reviewed.
+- [Evidence and Project Status](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/evidence-and-status.md) — what is implemented, hypothesized, or not claimed.
 - [Protocol Guide](https://fullspectrumprotocol.com/protocols/guide.html) — how the protocol objects fit together.
 - [Technical Spec](https://fullspectrumprotocol.com/protocols/tech-spec.html) — engineering-facing description of the protocol stack.
 - [FSHI Case Entry](https://fullspectrumprotocol.com/fshi-index.html) — AI customer-service quality inspection scenario.
 - [Ecommerce governance case](https://github.com/full-spectrum-lab/full-spectrum-enterprise-governance/blob/main/docs/ecommerce-knowledge-source-adapter-spec-v0.1.md) — refund commitment and knowledge-source conflict examples.
 
+## Public Writing & Origins
+
+- [《开窗手册：全频谱、接口与静默封神》](https://read.douban.com/column/72712765/) — narrative origins and public-facing writing.
+- [知乎专栏](https://www.zhihu.com/column/c_2008500556897998127) — Chinese essays on AI governance, civilization dynamics, and Full Spectrum.
+- [Editorial status of legacy manuscripts](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/research/working-papers/legacy-manuscript-review.md) — why older manuscripts are not presented as peer-reviewed evidence.
+
+These materials provide context and intellectual background. Normative specifications remain in `full-spectrum-protocol`; runnable claims remain tied to code and tests.
+
 ## Community
 
-- Contributions: start from the relevant repository and open an issue or pull request with a narrow change.
-- Protocol changes: propose changes in `full-spectrum-protocol` with examples and schema impact.
-- Engine changes: keep examples reproducible and tests deterministic.
-- Enterprise cases: keep business claims separate from protocol guarantees.
+- [Open an issue](https://github.com/orgs/full-spectrum-lab/repositories) in the relevant repository with a narrow, reproducible question.
+- [Propose a protocol change](https://github.com/full-spectrum-lab/full-spectrum-protocol/blob/main/CONTRIBUTING.md) with examples and schema impact.
+- Contribute a counterexample that challenges a rule, Profile, example, or research claim.
+- Add an enterprise case while keeping business claims separate from protocol guarantees.
+- Read [Public Writing and Origins](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/public-writing-and-origins.md) for the Chinese public-reading path.
 
 ## Current Stage
 
