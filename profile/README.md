@@ -2,11 +2,12 @@
 
 ### Open governance protocol and local-first runtime for auditable AI agent behavior
 
-[Run the Engine](https://github.com/full-spectrum-lab/full-spectrum-engine#quick-start) · [Read the Protocol](https://github.com/full-spectrum-lab/full-spectrum-protocol/blob/main/START_HERE.md) · [Try an Enterprise Case](https://github.com/full-spectrum-lab/full-spectrum-enterprise-governance/blob/main/docs/try-it-locally.md) · [Explore the Framework](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/visual-index.md)
+[Run the Engine](https://github.com/full-spectrum-lab/full-spectrum-engine#quick-start) · [Inspect Observer](https://github.com/full-spectrum-lab/full-spectrum-observer) · [Read the Protocol](https://github.com/full-spectrum-lab/full-spectrum-protocol/blob/main/START_HERE.md) · [Try an Enterprise Case](https://github.com/full-spectrum-lab/full-spectrum-enterprise-governance/blob/main/docs/try-it-locally.md) · [Explore the Framework](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/visual-index.md)
 
 [![Engine CI](https://github.com/full-spectrum-lab/full-spectrum-engine/actions/workflows/ci.yml/badge.svg)](https://github.com/full-spectrum-lab/full-spectrum-engine/actions/workflows/ci.yml)
 [![Protocol Schemas](https://github.com/full-spectrum-lab/full-spectrum-protocol/actions/workflows/schema-check.yml/badge.svg)](https://github.com/full-spectrum-lab/full-spectrum-protocol/actions/workflows/schema-check.yml)
-[![Engine v1.0.0](https://img.shields.io/badge/engine-v1.0.0-success)](https://github.com/full-spectrum-lab/full-spectrum-engine/releases)
+[![Observer CI](https://github.com/full-spectrum-lab/full-spectrum-observer/actions/workflows/ci.yml/badge.svg)](https://github.com/full-spectrum-lab/full-spectrum-observer/actions/workflows/ci.yml)
+[![Engine v1.5.0](https://img.shields.io/badge/engine-v1.5.0-success)](https://github.com/full-spectrum-lab/full-spectrum-engine/releases/tag/v1.5.0)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue)](https://github.com/full-spectrum-lab/full-spectrum-engine)
 [![Local First](https://img.shields.io/badge/runtime-local--first-5b5bd6)](https://github.com/full-spectrum-lab/full-spectrum-engine#current-release-boundary)
 
@@ -38,6 +39,7 @@ The current public stack combines protocol schemas, runnable local engine code, 
 | Project | What it is | Start |
 | --- | --- | --- |
 | [full-spectrum-engine](https://github.com/full-spectrum-lab/full-spectrum-engine) | Local-first runtime for RiskVector, Runestone, AuditTrace, reproducible simulation, and governance-chain CLI generation. | [Quick Start](https://github.com/full-spectrum-lab/full-spectrum-engine#quick-start) |
+| [full-spectrum-observer](https://github.com/full-spectrum-lab/full-spectrum-observer) | Windows-first local Observer foundation kernel: deterministic Engine facade, evidence store, audit chain, packaging and verification. The alpha release remains blocked until the project license is selected and IG8 is rerun. | [Current status](https://github.com/full-spectrum-lab/full-spectrum-observer#current-implementation-status) |
 | [Governance Chain CLI](https://github.com/full-spectrum-lab/full-spectrum-engine/tree/main/src/governance_chain) | Generates a protocol object chain from raw business input: Governance Event, Canonical Context, Cell Manifest, Output Envelope, Enterprise Writeback, and report. | [Example input](https://github.com/full-spectrum-lab/full-spectrum-engine/tree/main/examples/governance_chain) |
 
 ### Enterprise Governance Cases
@@ -54,12 +56,14 @@ The current public stack combines protocol schemas, runnable local engine code, 
 - Read protocol schemas for Governance Event, Canonical Context, Cell Protocol, Output Envelope, and Enterprise Writeback.
 - Inspect enterprise-facing customer-service governance examples.
 - Use the visual index to understand the four-layer architecture.
+- Inspect the Observer foundation-kernel source and independent acceptance evidence; no installable alpha is claimed until its license gate closes.
 
 ## Start in 10 Minutes
 
 | Goal | Start | Result |
 | --- | --- | --- |
 | Run the local observer engine | [Engine Quick Start](https://github.com/full-spectrum-lab/full-spectrum-engine#quick-start) | Deterministic simulation and audit artifacts |
+| Inspect the Observer application boundary | [Observer repository](https://github.com/full-spectrum-lab/full-spectrum-observer) | Source, architecture, tests and gated release evidence |
 | Generate a governance object chain | [Governance Chain CLI](https://github.com/full-spectrum-lab/full-spectrum-engine#governance-chain-cli-ten-minute-runnable) | Schema-validated ecommerce objects and report |
 | Validate protocol objects | [Protocol schema tools](https://github.com/full-spectrum-lab/full-spectrum-protocol/tree/main/tools) | Machine-readable conformance result |
 | Inspect an enterprise case | [Ecommerce case](https://github.com/full-spectrum-lab/full-spectrum-enterprise-governance/tree/main/cases/ecommerce-knowledge-conflict) | Synthetic/desensitized review workflow |
@@ -72,6 +76,7 @@ The current public stack combines protocol schemas, runnable local engine code, 
 | Governance-chain generation and validation | `full-spectrum-engine` |
 | Governance Event, I/O and audit schemas | `full-spectrum-protocol` |
 | Local Observer Engine, RiskVector and Runestone | `full-spectrum-engine` |
+| Observer application, evidence store and local operator workflow | `full-spectrum-observer` |
 | Ecommerce governance and human-review cases | `full-spectrum-enterprise-governance` |
 | Evidence status, diagrams and research index | `full-spectrum-commons` |
 
@@ -134,7 +139,8 @@ Full Spectrum Lab is in early public build-out.
 Already available:
 
 - public repository split across protocol, engine, enterprise governance, and commons
-- local-first engine v1.0 baseline
+- local-first Engine v1.5.0 enterprise-pilot candidate
+- Observer v0.1.0-alpha source, architecture and test evidence (release blocked by explicit license selection and IG8 rerun)
 - governance-chain CLI for reproducible ecommerce protocol objects
 - protocol schemas and RFC scaffolding
 - enterprise customer-service governance examples
