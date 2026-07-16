@@ -2,6 +2,8 @@
 
 ### Open governance protocol and local-first runtime for auditable AI agent behavior
 
+[English](./README.md) · [简体中文](./README.zh-CN.md)
+
 [Run the Engine](https://github.com/full-spectrum-lab/full-spectrum-engine#quick-start) · [Inspect Observer](https://github.com/full-spectrum-lab/full-spectrum-observer) · [Read the Protocol](https://github.com/full-spectrum-lab/full-spectrum-protocol/blob/main/START_HERE.md) · [Try an Enterprise Case](https://github.com/full-spectrum-lab/full-spectrum-enterprise-governance/blob/main/docs/try-it-locally.md) · [Explore the Framework](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/visual-index.md)
 
 [![Engine CI](https://github.com/full-spectrum-lab/full-spectrum-engine/actions/workflows/ci.yml/badge.svg)](https://github.com/full-spectrum-lab/full-spectrum-engine/actions/workflows/ci.yml)
@@ -13,6 +15,17 @@
 [![Local First](https://img.shields.io/badge/runtime-local--first-5b5bd6)](https://github.com/full-spectrum-lab/full-spectrum-engine#current-release-boundary)
 
 [Evidence & Status](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/evidence-and-status.md) · [Research](https://github.com/full-spectrum-lab/full-spectrum-commons/tree/main/research) · [Public Writing](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/public-writing-and-origins.md) · [Website](https://fullspectrumprotocol.com/index.html)
+
+## Release truth
+
+| Project | Public status | What it means |
+| --- | --- | --- |
+| Engine | [`v1.4.0` stable](https://github.com/full-spectrum-lab/full-spectrum-engine/releases/tag/v1.4.0) · [`v1.5.0` preview](https://github.com/full-spectrum-lab/full-spectrum-engine/releases/tag/v1.5.0) | v1.5.0 is an enterprise-pilot candidate and remains a GitHub pre-release. |
+| Observer | [`v0.2.0-alpha.2` pre-release](https://github.com/full-spectrum-lab/full-spectrum-observer/releases/tag/v0.2.0-alpha.2) | Current public compatibility-adapter release; local-first and observer-only. |
+| Observer next | `v0.3.0-beta` — in development, not released | Local single-user Operator Console; roadmap status is not a shipped capability. |
+| Protocol | Early public draft | Schemas and conformance checks are available; no final-standard claim. |
+
+**Documentation, implementation and release are separate states.** A roadmap entry does not become a public capability until code, tests, evidence and a Release are all present.
 
 ---
 

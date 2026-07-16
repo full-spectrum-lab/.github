@@ -1,0 +1,38 @@
+name: Bug report
+description: Report a reproducible defect without sensitive data
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: input
+    id: repository_version
+    attributes:
+      label: Repository and exact version
+      placeholder: full-spectrum-engine v1.5.0 / commit
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction steps
+      description: Use synthetic or sanitized data only.
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Expected and actual result
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      placeholder: OS, runtime and relevant configuration
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety check
+      options:
+        - label: I removed tokens, credentials, customer identities and private data.
+          required: true
+
