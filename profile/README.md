@@ -6,9 +6,9 @@
 
 [![Engine CI](https://github.com/full-spectrum-lab/full-spectrum-engine/actions/workflows/ci.yml/badge.svg)](https://github.com/full-spectrum-lab/full-spectrum-engine/actions/workflows/ci.yml)
 [![Protocol Schemas](https://github.com/full-spectrum-lab/full-spectrum-protocol/actions/workflows/schema-check.yml/badge.svg)](https://github.com/full-spectrum-lab/full-spectrum-protocol/actions/workflows/schema-check.yml)
-[![Observer CI](https://github.com/full-spectrum-lab/full-spectrum-observer/actions/workflows/ci.yml/badge.svg)](https://github.com/full-spectrum-lab/full-spectrum-observer/actions/workflows/ci.yml)
+[![Observer CI](https://github.com/full-spectrum-lab/full-spectrum-observer/actions/workflows/foundation-gates.yml/badge.svg)](https://github.com/full-spectrum-lab/full-spectrum-observer/actions/workflows/foundation-gates.yml)
 [![Engine v1.5.0](https://img.shields.io/badge/engine-v1.5.0-success)](https://github.com/full-spectrum-lab/full-spectrum-engine/releases/tag/v1.5.0)
-[![Observer v0.1.0-alpha](https://img.shields.io/badge/observer-v0.1.0--alpha-success)](https://github.com/full-spectrum-lab/full-spectrum-observer/releases/tag/v0.1.0-alpha)
+[![Observer v0.2.0-alpha.2](https://img.shields.io/badge/observer-v0.2.0--alpha.2-orange)](https://github.com/full-spectrum-lab/full-spectrum-observer/releases/tag/v0.2.0-alpha.2)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue)](https://github.com/full-spectrum-lab/full-spectrum-engine)
 [![Local First](https://img.shields.io/badge/runtime-local--first-5b5bd6)](https://github.com/full-spectrum-lab/full-spectrum-engine#current-release-boundary)
 
@@ -40,7 +40,7 @@ The current public stack combines protocol schemas, runnable local engine code, 
 | Project | What it is | Start |
 | --- | --- | --- |
 | [full-spectrum-engine](https://github.com/full-spectrum-lab/full-spectrum-engine) | Local-first runtime for RiskVector, Runestone, AuditTrace, reproducible simulation, and governance-chain CLI generation. | [Quick Start](https://github.com/full-spectrum-lab/full-spectrum-engine#quick-start) |
-| [full-spectrum-observer](https://github.com/full-spectrum-lab/full-spectrum-observer) | Windows-first local Observer foundation kernel: deterministic Engine facade, evidence store, audit chain, packaging and verification. v0.1.0-alpha has passed IG8 independent acceptance and is available under MulanPSL-2.0 OR Apache-2.0. | [v0.1.0-alpha](https://github.com/full-spectrum-lab/full-spectrum-observer/releases/tag/v0.1.0-alpha) |
+| [full-spectrum-observer](https://github.com/full-spectrum-lab/full-spectrum-observer) | Local-first Observer foundation kernel plus the v0.2 Engine v1.0/v1.5 Compatibility Adapter. v0.2.0-alpha.2 preserves version, Profile, UNKNOWN, reason-code, Replay and Audit semantics and remains observer-only. | [v0.2.0-alpha.2](https://github.com/full-spectrum-lab/full-spectrum-observer/releases/tag/v0.2.0-alpha.2) |
 | [Governance Chain CLI](https://github.com/full-spectrum-lab/full-spectrum-engine/tree/main/src/governance_chain) | Generates a protocol object chain from raw business input: Governance Event, Canonical Context, Cell Manifest, Output Envelope, Enterprise Writeback, and report. | [Example input](https://github.com/full-spectrum-lab/full-spectrum-engine/tree/main/examples/governance_chain) |
 
 ### Enterprise Governance Cases
@@ -57,7 +57,7 @@ The current public stack combines protocol schemas, runnable local engine code, 
 - Read protocol schemas for Governance Event, Canonical Context, Cell Protocol, Output Envelope, and Enterprise Writeback.
 - Inspect enterprise-facing customer-service governance examples.
 - Use the visual index to understand the four-layer architecture.
-- Inspect, build, package and manually accept the released Observer v0.1.0-alpha foundation kernel; the evidence and release verifier remain part of the repository.
+- Inspect the released Observer v0.1 foundation kernel and the v0.2 Engine v1.0/v1.5 Compatibility Adapter; both remain local-first and observer-only.
 
 ## Start in 10 Minutes
 
@@ -141,7 +141,7 @@ Already available:
 
 - public repository split across protocol, engine, enterprise governance, and commons
 - local-first Engine v1.5.0 enterprise-pilot candidate
-- Observer v0.1.0-alpha released after dual-license selection and IG8 independent acceptance
+- Observer v0.2.0-alpha.2 released as the Engine v1.0/v1.5 compatibility layer after 79 compatibility tests, independent negative reproduction and Foundation gate verification
 - governance-chain CLI for reproducible ecommerce protocol objects
 - protocol schemas and RFC scaffolding
 - enterprise customer-service governance examples
