@@ -1,10 +1,20 @@
 # Full Spectrum Lab
 
-### Open governance protocol and local-first runtime for auditable AI agent behavior
+### Local-first observation and governance evidence for auditable AI and enterprise risk
 
 [English](./README.md) · [简体中文](./README.zh-CN.md)
 
-[Run the Engine](https://github.com/full-spectrum-lab/full-spectrum-engine#quick-start) · [Inspect Observer](https://github.com/full-spectrum-lab/full-spectrum-observer) · [Read the Protocol](https://github.com/full-spectrum-lab/full-spectrum-protocol/blob/main/START_HERE.md) · [Try an Enterprise Case](https://github.com/full-spectrum-lab/full-spectrum-enterprise-governance/blob/main/docs/try-it-locally.md) · [Explore the Framework](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/visual-index.md)
+[Inspect Observer](https://github.com/full-spectrum-lab/full-spectrum-observer) · [Run Engine](https://github.com/full-spectrum-lab/full-spectrum-engine#quick-start) · [Try a synthetic industrial case](https://github.com/full-spectrum-lab/full-spectrum-enterprise-governance/tree/main/cases/industrial-tightening-evidence-gap) · [Read Protocol](https://github.com/full-spectrum-lab/full-spectrum-protocol/blob/main/START_HERE.md)
+
+Full Spectrum Lab builds an open, local-first Observer stack for auditable AI and enterprise risk. **Protocol defines the governance contract, Engine produces deterministic analysis and evidence, and Observer connects those capabilities to a bounded human-review workflow.**
+
+| Start from | Question answered | Public entry |
+| --- | --- | --- |
+| **Enterprise** | How do we observe AI behavior, decisions and responsibility without replacing business systems? | [Observer](https://github.com/full-spectrum-lab/full-spectrum-observer) |
+| **Industrial** | How do we detect cross-system risk while data remains inside the organization? | [Synthetic tightening-evidence case](https://github.com/full-spectrum-lab/full-spectrum-enterprise-governance/tree/main/cases/industrial-tightening-evidence-gap) |
+| **Protocol** | How are identity, capability, boundary, evidence and accountability represented? | [Protocol start](https://github.com/full-spectrum-lab/full-spectrum-protocol/blob/main/START_HERE.md) |
+
+[![Three entries and three core components](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/diagrams/architecture/three-entry-three-core-components-zh-v10.png?raw=1)](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/three-entry-three-core-components.md)
 
 [![Engine CI](https://github.com/full-spectrum-lab/full-spectrum-engine/actions/workflows/ci.yml/badge.svg)](https://github.com/full-spectrum-lab/full-spectrum-engine/actions/workflows/ci.yml)
 [![Protocol Schemas](https://github.com/full-spectrum-lab/full-spectrum-protocol/actions/workflows/schema-check.yml/badge.svg)](https://github.com/full-spectrum-lab/full-spectrum-protocol/actions/workflows/schema-check.yml)
@@ -27,17 +37,13 @@
 
 **Documentation, implementation and release are separate states.** A roadmap entry does not become a public capability until code, tests, evidence and a Release are all present.
 
----
-
-[![Full Spectrum governance overview](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/diagrams/architecture/four-layer-architecture-v01.png?raw=1)](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/visual-index.md)
-
 ## About
 
-Full Spectrum Lab hosts open-source work for AI governance beyond simple tool calling and agent connectivity.
+Full Spectrum Lab hosts open-source work for governance beyond simple tool calling and agent connectivity.
 
 The project focuses on the layer where AI actions become accountable: who acted, what capability was claimed, what risk was detected, what decision was made, what trace was preserved, and when human review must re-enter the loop.
 
-The current public stack combines protocol schemas, runnable local engine code, enterprise governance cases, diagrams, and cross-repository navigation.
+The current public stack combines protocol schemas, runnable local engine code, an Observer application foundation, synthetic enterprise cases, diagrams, and cross-repository navigation. Public examples are not presented as production validation unless an explicit evidence record says so.
 
 ## Projects
 
@@ -60,7 +66,7 @@ The current public stack combines protocol schemas, runnable local engine code, 
 
 | Project | What it is | Start |
 | --- | --- | --- |
-| [full-spectrum-enterprise-governance](https://github.com/full-spectrum-lab/full-spectrum-enterprise-governance) | Enterprise AI customer-service governance cases, adapters, human-review workflow, report templates, and deployment guidance. | [Try It Locally](https://github.com/full-spectrum-lab/full-spectrum-enterprise-governance/blob/main/docs/try-it-locally.md) |
+| [full-spectrum-enterprise-governance](https://github.com/full-spectrum-lab/full-spectrum-enterprise-governance) | Synthetic enterprise and industrial governance cases, adapters, human-review workflow, report templates, and deployment guidance. | [Industrial case](https://github.com/full-spectrum-lab/full-spectrum-enterprise-governance/tree/main/cases/industrial-tightening-evidence-gap) |
 | [Ecommerce governance case](https://github.com/full-spectrum-lab/full-spectrum-enterprise-governance/blob/main/docs/ecommerce-knowledge-source-adapter-spec-v0.1.md) | Refund over-commitment and knowledge-source conflict examples for AI customer-service governance. | [Adapter spec](https://github.com/full-spectrum-lab/full-spectrum-enterprise-governance/blob/main/docs/ecommerce-knowledge-source-adapter-spec-v0.1.md) |
 
 ## What Can I Use Today?

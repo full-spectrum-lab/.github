@@ -1,10 +1,20 @@
 # Full Spectrum Lab
 
-### 面向可审计 AI 行为的开放治理协议与本地优先运行时
+### 面向可审计 AI 与企业风险的本地优先观察和治理证据栈
 
 [English](./README.md) · [简体中文](./README.zh-CN.md)
 
-[运行 Engine](https://github.com/full-spectrum-lab/full-spectrum-engine#quick-start) · [查看 Observer](https://github.com/full-spectrum-lab/full-spectrum-observer) · [阅读 Protocol](https://github.com/full-spectrum-lab/full-spectrum-protocol/blob/main/START_HERE.md) · [运行企业案例](https://github.com/full-spectrum-lab/full-spectrum-enterprise-governance/blob/main/docs/try-it-locally.md) · [浏览架构图](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/visual-index.md)
+[查看 Observer](https://github.com/full-spectrum-lab/full-spectrum-observer) · [运行 Engine](https://github.com/full-spectrum-lab/full-spectrum-engine#quick-start) · [查看合成工业案例](https://github.com/full-spectrum-lab/full-spectrum-enterprise-governance/tree/main/cases/industrial-tightening-evidence-gap) · [阅读 Protocol](https://github.com/full-spectrum-lab/full-spectrum-protocol/blob/main/START_HERE.md)
+
+Full Spectrum Lab 建设开放、本地优先的 Observer 治理栈：**Protocol 定义治理契约，Engine 生成确定性分析与证据，Observer 把能力接入受边界约束的人工复核流程。**
+
+| 从哪里进入 | 回答什么问题 | 公开入口 |
+|---|---|---|
+| **企业入口** | 不替换业务系统，如何观察 AI 行为、决策与责任？ | [Observer](https://github.com/full-spectrum-lab/full-spectrum-observer) |
+| **工业入口** | 数据留在组织内部，如何发现跨系统风险？ | [合成拧紧证据缺口案例](https://github.com/full-spectrum-lab/full-spectrum-enterprise-governance/tree/main/cases/industrial-tightening-evidence-gap) |
+| **协议入口** | 身份、能力、边界、证据与责任如何表达？ | [Protocol 起点](https://github.com/full-spectrum-lab/full-spectrum-protocol/blob/main/START_HERE.md) |
+
+[![三层入口与三大核心组件](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/diagrams/architecture/three-entry-three-core-components-zh-v10.png?raw=1)](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/three-entry-three-core-components.md)
 
 ## 当前公开状态
 
@@ -43,4 +53,3 @@
 - [官方网站](https://fullspectrumprotocol.com/) 提供对外阅读入口。
 
 第一代 Observer 可以在企业内部离线运行，不要求加入公共身份、认证或协议网络。它输出分析、预警、报告和审计记录，但不代表企业执行最终业务动作。
-
