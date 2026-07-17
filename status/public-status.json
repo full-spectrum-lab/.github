@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-07-17",
+  "status_vocabulary": ["DESIGNED", "IMPLEMENTED", "VERIFIED", "RELEASED", "IN_DEVELOPMENT", "NOT_RELEASED", "NOT_SUPPORTED"],
+  "projects": {
+    "engine": {
+      "repository": "https://github.com/full-spectrum-lab/full-spectrum-engine",
+      "stable_release": "v1.4.0",
+      "stable_release_url": "https://github.com/full-spectrum-lab/full-spectrum-engine/releases/tag/v1.4.0",
+      "preview_release": "v1.5.0",
+      "preview_release_url": "https://github.com/full-spectrum-lab/full-spectrum-engine/releases/tag/v1.5.0",
+      "preview_label": "Enterprise Pilot Candidate / Pre-release",
+      "next_generation": "NOT_STARTED"
+    },
+    "observer": {
+      "repository": "https://github.com/full-spectrum-lab/full-spectrum-observer",
+      "latest_release": "v0.2.0-alpha.2",
+      "latest_release_url": "https://github.com/full-spectrum-lab/full-spectrum-observer/releases/tag/v0.2.0-alpha.2",
+      "latest_release_label": "Verified public pre-release",
+      "development_version": "v0.3.0-beta",
+      "development_status": "IN_DEVELOPMENT / NOT_RELEASED"
+    },
+    "protocol": {
+      "repository": "https://github.com/full-spectrum-lab/full-spectrum-protocol",
+      "status": "EARLY_PUBLIC_DRAFT",
+      "claim": "Schemas and conformance checks are public; no final-standard claim."
+    },
+    "industrial_case": {
+      "repository": "https://github.com/full-spectrum-lab/full-spectrum-enterprise-governance/tree/main/cases/industrial-tightening-evidence-gap",
+      "status": "DESIGNED / FIXTURE_VALIDATED",
+      "production_validated": false,
+      "named_customer": false
+    }
+  }
+}
