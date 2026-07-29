@@ -14,6 +14,14 @@
 
 [![Three entries and three core components](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/diagrams/architecture/three-entry-three-core-components-zh-v10.png?raw=1)](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/three-entry-three-core-components.md)
 
+<details>
+<summary><strong>Open the full system map</strong> — research-to-engineering context and product boundaries</summary>
+
+[![Full Spectrum system master map](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/diagrams/product-views/full-spectrum-system-master-map-en-v01.png?raw=1)](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/visual-index.md)
+
+The map is an orientation aid. Engine, Observer and Knowledge Governance are independently usable products; composition is optional and release truth remains repository-specific.
+</details>
+
 ## Choose an entry
 
 | Start from | Question | Result |
@@ -22,6 +30,7 @@
 | [Industrial case](https://github.com/full-spectrum-lab/full-spectrum-enterprise-governance/tree/main/cases/industrial-tightening-evidence-gap) | How can cross-system evidence gaps be represented safely? | Synthetic designed fixture with explicit no-writeback controls |
 | [Engine](https://github.com/full-spectrum-lab/full-spectrum-engine#quick-start) | Can the governance calculation be reproduced? | Deterministic output, fixtures, reports and CI |
 | [Protocol](https://github.com/full-spectrum-lab/full-spectrum-protocol/blob/main/START_HERE.md) | How are identity, capability, boundary, evidence and accountability expressed? | Schemas, examples and conformance checks |
+| [Knowledge Governance](https://github.com/full-spectrum-lab/full-spectrum-knowledge-governance) | How can knowledge identity, version, lifecycle and evidence be governed locally? | Fixed knowledge governance core and deterministic evidence |
 
 ## Release truth
 
@@ -31,6 +40,7 @@
 | Observer | [`v0.2.0-alpha.2` pre-release](https://github.com/full-spectrum-lab/full-spectrum-observer/releases/tag/v0.2.0-alpha.2) | Verified Engine v1.0/v1.5 compatibility line; observer-only. |
 | Observer next | `v0.3.0-beta` — in development, not released | Local single-user Operator Console; roadmap is not delivery. |
 | Protocol | Early public draft | Public schemas and conformance checks; no final-standard claim. |
+| Knowledge Governance | [`v0.1.0-alpha` pre-release](https://github.com/full-spectrum-lab/full-spectrum-knowledge-governance/releases/tag/v0.1.0-alpha) | Windows x64 verified; production-ready `NO`; no Observer/Engine dependency. |
 | Industrial R04 | Designed / fixture-validated | Synthetic, no named customer, not production validated. |
 
 [Machine-readable public status](https://github.com/full-spectrum-lab/.github/blob/main/status/public-status.json) · [Evidence taxonomy](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/evidence-and-status.md)
@@ -53,6 +63,7 @@
 | [full-spectrum-protocol](https://github.com/full-spectrum-lab/full-spectrum-protocol) | Normative schemas, specifications and conformance rules |
 | [full-spectrum-enterprise-governance](https://github.com/full-spectrum-lab/full-spectrum-enterprise-governance) | Synthetic enterprise/industrial cases and human-review patterns |
 | [full-spectrum-commons](https://github.com/full-spectrum-lab/full-spectrum-commons) | Architecture maps, evidence status, research and citation metadata |
+| [full-spectrum-knowledge-governance](https://github.com/full-spectrum-lab/full-spectrum-knowledge-governance) | Independent local-first knowledge identity, lifecycle, resolution and evidence |
 
 ## Public boundary
 

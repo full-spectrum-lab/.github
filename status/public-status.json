@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-07-17",
+  "updated_at": "2026-07-29",
   "status_vocabulary": ["DESIGNED", "IMPLEMENTED", "VERIFIED", "RELEASED", "IN_DEVELOPMENT", "NOT_RELEASED", "NOT_SUPPORTED"],
   "projects": {
     "engine": {
@@ -24,6 +24,15 @@
       "repository": "https://github.com/full-spectrum-lab/full-spectrum-protocol",
       "status": "EARLY_PUBLIC_DRAFT",
       "claim": "Schemas and conformance checks are public; no final-standard claim."
+    },
+    "knowledge_governance": {
+      "repository": "https://github.com/full-spectrum-lab/full-spectrum-knowledge-governance",
+      "latest_release": "v0.1.0-alpha",
+      "latest_release_url": "https://github.com/full-spectrum-lab/full-spectrum-knowledge-governance/releases/tag/v0.1.0-alpha",
+      "latest_release_label": "Alpha technical preview / pre-release",
+      "production_ready": false,
+      "verified_platforms": ["windows-x64"],
+      "not_executed_platforms": ["linux", "macos"]
     },
     "industrial_case": {
       "repository": "https://github.com/full-spectrum-lab/full-spectrum-enterprise-governance/tree/main/cases/industrial-tightening-evidence-gap",
