@@ -37,8 +37,8 @@ The map is an orientation aid. Engine, Observer and Knowledge Governance are ind
 | Project | Public status | Meaning |
 |---|---|---|
 | Engine | [`v1.4.0` stable](https://github.com/full-spectrum-lab/full-spectrum-engine/releases/tag/v1.4.0) · [`v1.5.0` pre-release](https://github.com/full-spectrum-lab/full-spectrum-engine/releases/tag/v1.5.0) | v1.5 is an Enterprise Pilot Candidate; Engine 2.x has not started. |
-| Observer | [`v0.2.0-alpha.2` pre-release](https://github.com/full-spectrum-lab/full-spectrum-observer/releases/tag/v0.2.0-alpha.2) | Verified Engine v1.0/v1.5 compatibility line; observer-only. |
-| Observer next | `v0.3.0-beta` — in development, not released | Local single-user Operator Console; roadmap is not delivery. |
+| Observer | [`v0.3.0-beta` pre-release](https://github.com/full-spectrum-lab/full-spectrum-observer/releases/tag/v0.3.0-beta) | Verified Windows x64 Operator Console, local evidence, audit/replay and bounded human review; production-ready `NO`. |
+| Observer next | `v0.4.0-beta` — designed, not released | Continues the frozen Observer product baseline; downstream projects adapt to it. |
 | Protocol | Early public draft | Public schemas and conformance checks; no final-standard claim. |
 | Knowledge Governance | [`v0.1.0-alpha` pre-release](https://github.com/full-spectrum-lab/full-spectrum-knowledge-governance/releases/tag/v0.1.0-alpha) | Windows x64 verified; production-ready `NO`; no Observer/Engine dependency. |
 | Industrial R04 | Designed / fixture-validated | Synthetic, no named customer, not production validated. |
@@ -52,7 +52,7 @@ The map is an orientation aid. Engine, Observer and Knowledge Governance are ind
 | Run deterministic governance | [Engine Quick Start](https://github.com/full-spectrum-lab/full-spectrum-engine#quick-start) | Local artifacts and tests |
 | Generate a protocol object chain | [Governance Chain CLI](https://github.com/full-spectrum-lab/full-spectrum-engine#governance-chain-cli-ten-minute-runnable) | Schema-validated object chain and report |
 | Inspect a bounded industrial scenario | [R04 tightening evidence gap](https://github.com/full-spectrum-lab/full-spectrum-enterprise-governance/tree/main/cases/industrial-tightening-evidence-gap) | Input, subjects, profile, expected observation, evidence and review boundary |
-| Check released Observer evidence | [Observer v0.2.0-alpha.2](https://github.com/full-spectrum-lab/full-spectrum-observer/releases/tag/v0.2.0-alpha.2) | Release, source gates and compatibility evidence |
+| Check released Observer evidence | [Observer v0.3.0-beta](https://github.com/full-spectrum-lab/full-spectrum-observer/releases/tag/v0.3.0-beta) | Package SHA, identity, manifest, self-verification and independent retest |
 
 ## Repositories
 

@@ -28,8 +28,8 @@
 | 项目 | 状态 | 准确含义 |
 |---|---|---|
 | Engine | [`v1.4.0` 稳定版](https://github.com/full-spectrum-lab/full-spectrum-engine/releases/tag/v1.4.0) · [`v1.5.0` 预发布](https://github.com/full-spectrum-lab/full-spectrum-engine/releases/tag/v1.5.0) | v1.5 是企业试点候选；Engine 2.x 尚未启动。 |
-| Observer | [`v0.2.0-alpha.2` 预发布](https://github.com/full-spectrum-lab/full-spectrum-observer/releases/tag/v0.2.0-alpha.2) | 已验证 Engine v1.0/v1.5 兼容层；仍然只做观察。 |
-| Observer 下一版本 | `v0.3.0-beta` — 研发中、尚未发布 | 本地单用户 Operator Console；规划不等于交付。 |
+| Observer | [`v0.3.0-beta` 预发布](https://github.com/full-spectrum-lab/full-spectrum-observer/releases/tag/v0.3.0-beta) | Windows x64 Operator Console、证据、审计/回放与受约束人工复核已验证；生产就绪：否。 |
+| Observer 下一版本 | `v0.4.0-beta` — 已设计、尚未发布 | 继续遵守 Observer 冻结产品基线；下游项目适配它。 |
 | Protocol | 早期公开草案 | 已公开 Schema 和一致性检查，不宣称最终标准。 |
 | 工业 R04 | 设计完成 / fixture 已校验 | 合成案例、无具名客户、未经生产验证。 |
 
@@ -42,7 +42,7 @@
 | 运行确定性治理计算 | [Engine Quick Start](https://github.com/full-spectrum-lab/full-spectrum-engine#quick-start) | 本地产物与测试 |
 | 生成 Protocol 对象链 | [Governance Chain CLI](https://github.com/full-spectrum-lab/full-spectrum-engine#governance-chain-cli-ten-minute-runnable) | 通过 Schema 校验的对象链与报告 |
 | 查看有边界的工业场景 | [R04 拧紧证据缺口](https://github.com/full-spectrum-lab/full-spectrum-enterprise-governance/tree/main/cases/industrial-tightening-evidence-gap) | 输入、主体、Profile、预期 Observation、Evidence 和复核边界 |
-| 查看 Observer 已发布证据 | [Observer v0.2.0-alpha.2](https://github.com/full-spectrum-lab/full-spectrum-observer/releases/tag/v0.2.0-alpha.2) | Release、门禁与兼容性证据 |
+| 查看 Observer 已发布证据 | [Observer v0.3.0-beta](https://github.com/full-spectrum-lab/full-spectrum-observer/releases/tag/v0.3.0-beta) | 包 SHA、Identity、Manifest、自验证与独立复测 |
 
 ## 五个核心仓库
 

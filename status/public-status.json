@@ -14,11 +14,13 @@
     },
     "observer": {
       "repository": "https://github.com/full-spectrum-lab/full-spectrum-observer",
-      "latest_release": "v0.2.0-alpha.2",
-      "latest_release_url": "https://github.com/full-spectrum-lab/full-spectrum-observer/releases/tag/v0.2.0-alpha.2",
-      "latest_release_label": "Verified public pre-release",
-      "development_version": "v0.3.0-beta",
-      "development_status": "IN_DEVELOPMENT / NOT_RELEASED"
+      "latest_release": "v0.3.0-beta",
+      "latest_release_url": "https://github.com/full-spectrum-lab/full-spectrum-observer/releases/tag/v0.3.0-beta",
+      "latest_release_label": "Verified beta public pre-release; production ready NO",
+      "verified_platforms": ["windows-x64"],
+      "not_executed_platforms": ["linux", "macos"],
+      "development_version": "v0.4.0-beta",
+      "development_status": "DESIGNED / NOT_RELEASED"
     },
     "protocol": {
       "repository": "https://github.com/full-spectrum-lab/full-spectrum-protocol",
