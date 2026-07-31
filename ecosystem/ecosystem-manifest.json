@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-08-01",
+  "canonical_statement": "Full Spectrum Lab is an evidence-first governance engineering family that separates facts, exact knowledge versions, deterministic evaluation, authorization, real-world action and replay.",
+  "composition": "independent_products_optional_composition",
+  "real_world_action_owner": "authorized_external_actor_or_system",
+  "tracks": {
+    "protocol": {"role": "governance_semantics_and_contracts", "not": ["transport", "executor"]},
+    "engine": {"role": "deterministic_governance_evaluation", "not": ["agent_runtime", "planner", "workflow_scheduler", "tool_executor", "llm_orchestrator"]},
+    "knowledge_governance": {"role": "exact_knowledge_identity_version_provenance_lifecycle", "not": ["rag", "vector_database", "cms"]},
+    "observer": {"role": "authorized_reality_input_observation_evidence_audit_replay_review", "not": ["apm", "generic_logging", "production_controller"]}
+  }
+}

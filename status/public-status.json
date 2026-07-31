@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-07-29",
+  "updated_at": "2026-08-01",
   "status_vocabulary": ["DESIGNED", "IMPLEMENTED", "VERIFIED", "RELEASED", "IN_DEVELOPMENT", "NOT_RELEASED", "NOT_SUPPORTED"],
   "projects": {
     "engine": {
@@ -14,9 +14,10 @@
     },
     "observer": {
       "repository": "https://github.com/full-spectrum-lab/full-spectrum-observer",
-      "latest_release": "v0.3.0-beta",
-      "latest_release_url": "https://github.com/full-spectrum-lab/full-spectrum-observer/releases/tag/v0.3.0-beta",
-      "latest_release_label": "Verified beta public pre-release; production ready NO",
+      "latest_release": "v0.3.0-beta.1",
+      "latest_release_url": "https://github.com/full-spectrum-lab/full-spectrum-observer/releases/tag/v0.3.0-beta.1",
+      "latest_release_label": "Identity-closed beta public pre-release; production ready NO",
+      "superseded_release": "v0.3.0-beta",
       "verified_platforms": ["windows-x64"],
       "not_executed_platforms": ["linux", "macos"],
       "development_version": "v0.4.0-beta",
