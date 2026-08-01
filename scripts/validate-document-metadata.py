@@ -13,7 +13,15 @@ from pathlib import Path
 CREATED = re.compile(r"(?:创建时间|AUTHOR_DECLARED_CREATED_AT|Created at)\s*[:：]\s*\d{4}-\d{2}-\d{2}(?:T|\s)\d{2}:\d{2}")
 UPDATED = re.compile(r"(?:最后更新时间|AUTHOR_DECLARED_UPDATED_AT|Last updated at)\s*[:：]\s*\d{4}-\d{2}-\d{2}(?:T|\s)\d{2}:\d{2}")
 ZONE = re.compile(r"(?:北京时间|UTC\+8|\+08:00)", re.IGNORECASE)
-EXCLUDED_PARTS = {".git", "node_modules", "vendor", "third_party"}
+EXCLUDED_PARTS = {
+    ".git",
+    ".venv",
+    ".verify-venv",
+    "venv",
+    "node_modules",
+    "vendor",
+    "third_party",
+}
 
 
 def changed_markdown(base: str) -> list[Path]:
