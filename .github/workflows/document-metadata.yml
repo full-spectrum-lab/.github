@@ -1,0 +1,35 @@
+name: Reusable document metadata gate
+
+on:
+  workflow_call:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/checkout@v4
+        with:
+          repository: full-spectrum-lab/.github
+          path: .governance
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Select diff base
+        id: base
+        shell: bash
+        run: |
+          base="${{ github.event.before }}"
+          if [[ "${{ github.event_name }}" == "pull_request" ]]; then
+            base="${{ github.event.pull_request.base.sha }}"
+          fi
+          if [[ -z "$base" || "$base" =~ ^0+$ ]]; then
+            base="$(git rev-parse HEAD^)"
+          fi
+          echo "sha=$base" >> "$GITHUB_OUTPUT"
+      - run: python .governance/scripts/validate-document-metadata.py --base "${{ steps.base.outputs.sha }}"
