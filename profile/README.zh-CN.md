@@ -14,6 +14,19 @@
 
 [![全频谱体系总图](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/diagrams/product-views/full-spectrum-system-master-map-zh-v01.png?raw=1)](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/visual-index.md)
 
+## 从你的问题开始
+
+你不需要先读懂仓库结构。先从你希望被解释、复算或治理的真实问题进入。
+
+| 你的问题 | 建议入口 |
+|---|---|
+| 系统为什么得出这个结论？ | [Observer](https://github.com/full-spectrum-lab/full-spectrum-observer) |
+| 这个判断能否精确复算？ | [Engine](https://github.com/full-spectrum-lab/full-spectrum-engine) |
+| 当时究竟使用了哪个知识版本？ | [Knowledge Governance](https://github.com/full-spectrum-lab/full-spectrum-knowledge-governance) |
+| 谁以什么能力、在什么边界内行动？ | [Protocol](https://github.com/full-spectrum-lab/full-spectrum-protocol) |
+| 怎样把它扩展到另一个行业？ | CASE + Knowledge Pack + Adapter + Skill |
+| 我想先看完整体系 | [按问题组织的公共入口](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/start-from-your-question.zh-CN.md) |
+
 ## 四条可独立使用的工程轨道
 
 | 轨道 | 职责 | 明确不做什么 |

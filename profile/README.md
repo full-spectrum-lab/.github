@@ -14,6 +14,19 @@ It is **not** an agent operating system, planner, workflow orchestrator, generic
 
 [![Full Spectrum system map](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/diagrams/product-views/full-spectrum-system-master-map-en-v01.png?raw=1)](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/visual-index.md)
 
+## Start from your question
+
+You do not need to understand the repository structure first. Start with the problem you need to make explainable, reproducible or governable.
+
+| Your question | Start here |
+|---|---|
+| Why did the system reach this conclusion? | [Observer](https://github.com/full-spectrum-lab/full-spectrum-observer) |
+| Can the evaluation be reproduced exactly? | [Engine](https://github.com/full-spectrum-lab/full-spectrum-engine) |
+| Which exact knowledge version was used? | [Knowledge Governance](https://github.com/full-spectrum-lab/full-spectrum-knowledge-governance) |
+| Who acted, under what capability and boundary? | [Protocol](https://github.com/full-spectrum-lab/full-spectrum-protocol) |
+| How can this be applied to another domain? | CASE + Knowledge Pack + Adapter + Skill |
+| I need the whole map first | [Question-based public entry](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/start-from-your-question.md) |
+
 ## Four independent engineering tracks
 
 | Track | Responsibility | Explicit non-goal |
