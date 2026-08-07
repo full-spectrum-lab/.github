@@ -27,6 +27,21 @@
 | 怎样把它扩展到另一个行业？ | CASE + Knowledge Pack + Adapter + Skill |
 | 我想先看完整体系 | [按问题组织的公共入口](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/start-from-your-question.zh-CN.md) |
 
+## 一个贯穿主体、知识、关系与行业的模型
+
+全频谱不局限于某个行业或某类系统。它可复用的结构是：
+
+```text
+Engine/主体纵轴 对人 → Agent/工具 → 团队/系统 → 组织 → 跨组织网络进行可复算判断
+知识横轴      行业材料 → 精确版本 → Knowledge Pack → CASE / Skill
+Protocol 网络 谁可以行动 → 能力 → 边界 → 授权 → 证据 → 责任
+行业扩展      Core Contracts + Knowledge Pack + CASE + Adapter + Skill + Evidence
+```
+
+Engine/主体纵轴把可复算判断贯穿不同类型的主体，同时保持身份、授权和责任连续；知识横轴让不同行业的知识依据保持精确、可追溯、可回放；Protocol 连接主体间的关系与边界；Observer 让每个交叉点可观察、可留证、可审计、可复核；CASE、Pack、Adapter 和 Skill 把同一套治理合同扩展为行业方案。
+
+这是架构与扩展模型，不代表生产级协议网络、所有行业方案或成熟 Skill 生态已经完成。[阅读完整的按问题组织模型](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/start-from-your-question.zh-CN.md)。
+
 ## 四条可独立使用的工程轨道
 
 | 轨道 | 职责 | 明确不做什么 |

@@ -27,6 +27,21 @@ You do not need to understand the repository structure first. Start with the pro
 | How can this be applied to another domain? | CASE + Knowledge Pack + Adapter + Skill |
 | I need the whole map first | [Question-based public entry](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/start-from-your-question.md) |
 
+## One model across subjects, knowledge, relationships and domains
+
+Full Spectrum is not limited to one industry or one type of system. Its reusable structure is:
+
+```text
+Engine / subject axis  deterministic evaluation across human → Agent/tool → team/system → organization → cross-organization network
+Horizontal knowledge   domain material → exact version → Knowledge Pack → CASE / Skill
+Protocol relationships who may act → capability → boundary → authorization → evidence → accountability
+Domain extension       Core Contracts + Knowledge Pack + CASE + Adapter + Skill + Evidence
+```
+
+The Engine/subject axis applies reproducible evaluation across different kinds of subjects while preserving identity, authority and responsibility. The knowledge axis keeps domain knowledge exact and replayable across industries. Protocol connects relationships and boundaries. Observer makes each intersection observable, evidenced, auditable and reviewable. CASE, Pack, Adapter and Skill turn the same governance contracts into domain-specific solutions.
+
+This is an architecture and expansion model—not a claim that a production-scale protocol network, every industry solution or a mature Skill ecosystem already exists. [Read the complete question-based model](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/start-from-your-question.md).
+
 ## Four independent engineering tracks
 
 | Track | Responsibility | Explicit non-goal |
