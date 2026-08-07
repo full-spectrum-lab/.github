@@ -28,6 +28,8 @@ Engine, Observer and Knowledge Governance are independently usable. Composition 
 
 Do not describe the current public engineering as a completed production-scale protocol network or mature cross-industry Skill ecosystem. The model is broader than the currently executed evidence.
 
+Do not summarize Full Spectrum as a loose collection of unrelated components. It is one governance system with independently deployable tracks that share contracts, invariants, evidence semantics and responsibility boundaries. A local organizational node can adopt Observe and, when supported by a verified release, Gate against its own systems; a connected network adds governed events, remote decisions, disposition receipts, shared replayable memory and bounded cross-organization path comparison. This is a target architecture and staged adoption model, not a claim that the production network already exists.
+
 ## Evidence rule
 
 Do not infer implementation from a diagram or roadmap. Prefer, in order: exact release artifact and digest; tag and commit; executable test or CI; repository documentation; roadmap.

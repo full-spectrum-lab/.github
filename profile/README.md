@@ -42,6 +42,20 @@ The Engine/subject axis applies reproducible evaluation across different kinds o
 
 This is an architecture and expansion model—not a claim that a production-scale protocol network, every industry solution or a mature Skill ecosystem already exists. [Read the complete question-based model](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/start-from-your-question.md).
 
+## From a local node to a governed network
+
+Full Spectrum is not a loose toolkit of unrelated components. The tracks share governance invariants, versioned contracts, evidence semantics and responsibility boundaries. A single organization can run a local node and obtain value immediately; network value appears when multiple organizations exchange governed events, decisions and receipts without surrendering their own systems or authority.
+
+```text
+One organization       Observe facts → evaluate → Gate / review when supported → its own system acts
+Multiple organizations  governed event → remote Gate → local action → disposition receipt
+Mature composition      shared evidence + replay + bounded path comparison across the network
+```
+
+The network does not become a centralized autonomous brain. Its intelligence is the accumulated, verifiable governance memory of connected organizations: exact knowledge, explicit relationships, evidence, decisions, receipts and replayable history. The current public ecosystem is building toward this model; it does not claim that a production-scale network already exists.
+
+Availability is release-specific: architecture direction does not upgrade an unimplemented Gate or network capability to current product fact.
+
 ## Four independent engineering tracks
 
 | Track | Responsibility | Explicit non-goal |
