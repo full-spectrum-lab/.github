@@ -52,9 +52,11 @@ Multiple organizations  governed event → remote Gate → local action → disp
 Mature composition      shared evidence + replay + bounded path comparison across the network
 ```
 
-The network does not become a centralized autonomous brain. Its intelligence is the accumulated, verifiable governance memory of connected organizations: exact knowledge, explicit relationships, evidence, decisions, receipts and replayable history. The current public ecosystem is building toward this model; it does not claim that a production-scale network already exists.
+The network is built and operated by participating enterprises, organizations, public institutions or sovereign participants—not by Full Spectrum as a hosted SaaS network. Full Spectrum provides the method, contracts, node patterns and Engine/Observer capabilities for building it. Its intelligence is the accumulated, verifiable governance memory of participating organizations: exact knowledge, explicit relationships, evidence, decisions, receipts and replayable history. The current public ecosystem is building toward this model; it does not claim that a production-scale network already exists.
 
 Availability is release-specific: architecture direction does not upgrade an unimplemented Gate or network capability to current product fact.
+
+The second-generation direction is for participant-operated protocol nodes / Protocol Executors to invoke Engine and Observer for governance Gates and bounded optimization, while participants' own systems execute approved actions. Full Spectrum does not become the business executor or the owner of the participating network.
 
 ## Four independent engineering tracks
 

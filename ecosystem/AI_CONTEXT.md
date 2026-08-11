@@ -28,7 +28,9 @@ Engine, Observer and Knowledge Governance are independently usable. Composition 
 
 Do not describe the current public engineering as a completed production-scale protocol network or mature cross-industry Skill ecosystem. The model is broader than the currently executed evidence.
 
-Do not summarize Full Spectrum as a loose collection of unrelated components. It is one governance system with independently deployable tracks that share contracts, invariants, evidence semantics and responsibility boundaries. A local organizational node can adopt Observe and, when supported by a verified release, Gate against its own systems; a connected network adds governed events, remote decisions, disposition receipts, shared replayable memory and bounded cross-organization path comparison. This is a target architecture and staged adoption model, not a claim that the production network already exists.
+Do not summarize Full Spectrum as a loose collection of unrelated components. It is one governance system with independently deployable tracks that share contracts, invariants, evidence semantics and responsibility boundaries. A local organizational node can adopt Observe and, when supported by a verified release, Gate against its own systems. Participating enterprises, organizations, public institutions or sovereign participants build and operate their own networks; Full Spectrum provides the method, contracts, node patterns and Engine/Observer capabilities. A connected network adds governed events, remote decisions, disposition receipts, shared replayable memory and bounded cross-organization path comparison. This is a target architecture and staged adoption model, not a claim that the production network already exists.
+
+The second-generation direction uses participant-operated protocol nodes / Protocol Executors to invoke Engine + Observer for governance Gates and bounded optimization; participating organizations' own systems remain the executors, and Full Spectrum does not own or centrally operate the network.
 
 ## Evidence rule
 
