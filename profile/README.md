@@ -14,6 +14,12 @@ It is **not** an agent operating system, planner, workflow orchestrator, generic
 
 [![Full Spectrum system map](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/diagrams/product-views/full-spectrum-system-master-map-en-v01.png?raw=1)](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/visual-index.md)
 
+### Observer-centered architecture
+
+[![Observer general system overview](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/diagrams/architecture/observer-general-system-overview-zh-v01.png?raw=1)](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/diagrams/architecture/observer-general-system-overview-zh-v01.png)
+
+This diagram presents the intended relationship between the Protocol network layer, the Engine subject/evaluation axis, the Knowledge Governance domain axis, the Observer reality/evidence node, and CASE / Pack / Adapter / Skill expansion. It is an architecture view, not proof that every depicted layer, adapter, network or workflow is implemented, integrated, runtime-verified or production-ready.
+
 ## Start from your question
 
 You do not need to understand the repository structure first. Start with the problem you need to make explainable, reproducible or governable.
@@ -76,7 +82,7 @@ Supporting repositories: [Enterprise Governance](https://github.com/full-spectru
 | Project | Public status | Meaning |
 |---|---|---|
 | Engine | [`v1.4.0` stable](https://github.com/full-spectrum-lab/full-spectrum-engine/releases/tag/v1.4.0) · [`v1.5.0` pre-release](https://github.com/full-spectrum-lab/full-spectrum-engine/releases/tag/v1.5.0) | v1.5 is an enterprise-pilot candidate; Engine 2.x has not started. |
-| Observer | [`v0.3.0-beta.1` pre-release](https://github.com/full-spectrum-lab/full-spectrum-observer/releases/tag/v0.3.0-beta.1) | Windows x64 beta; evidence, audit/replay and bounded human review; production-ready `NO`. |
+| Observer | [`v0.3.0-beta.2` pre-release](https://github.com/full-spectrum-lab/full-spectrum-observer/releases/tag/v0.3.0-beta.2) | Windows x64 beta; evidence, audit/replay and bounded human review; production-ready `NO`. |
 | Observer next | `v0.4.0-beta` — designed, not released | Frozen Observer requirements remain authoritative; downstream projects adapt to Observer. |
 | Knowledge Governance | [`v0.1.0-alpha` pre-release](https://github.com/full-spectrum-lab/full-spectrum-knowledge-governance/releases/tag/v0.1.0-alpha) | Windows x64 technical preview; production-ready `NO`; independently usable. |
 | Protocol | Early public draft | Public schemas and conformance checks; no final-standard claim. |
@@ -89,7 +95,7 @@ Supporting repositories: [Enterprise Governance](https://github.com/full-spectru
 Start with a repository's release page, exact tag, tests and attached evidence. Diagrams explain architecture; they do not prove implementation or production readiness.
 
 - [Run Engine](https://github.com/full-spectrum-lab/full-spectrum-engine#quick-start)
-- [Inspect Observer v0.3.0-beta.1](https://github.com/full-spectrum-lab/full-spectrum-observer/releases/tag/v0.3.0-beta.1)
+- [Inspect Observer v0.3.0-beta.2](https://github.com/full-spectrum-lab/full-spectrum-observer/releases/tag/v0.3.0-beta.2)
 - [Inspect the synthetic industrial case](https://github.com/full-spectrum-lab/full-spectrum-enterprise-governance/tree/main/cases/industrial-tightening-evidence-gap)
 - [Read Protocol](https://github.com/full-spectrum-lab/full-spectrum-protocol/blob/main/START_HERE.md)
 

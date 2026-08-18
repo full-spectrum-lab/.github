@@ -14,6 +14,12 @@
 
 [![全频谱体系总图](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/diagrams/product-views/full-spectrum-system-master-map-zh-v01.png?raw=1)](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/visual-index.md)
 
+### Observer 通用体系架构
+
+[![Observer 通用体系总览](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/diagrams/architecture/observer-general-system-overview-zh-v01.png?raw=1)](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/diagrams/architecture/observer-general-system-overview-zh-v01.png)
+
+本图用于说明 Protocol 网络层、Engine 主体/判断纵轴、Knowledge Governance 知识横轴、Observer 现实与证据节点，以及 CASE / Pack / Adapter / Skill 扩展之间的目标关系。它是架构说明图，不代表当前版本已经实现图中全部层级、适配器、网络或流程，也不等于运行验证或生产就绪。
+
 ## 从你的问题开始
 
 你不需要先读懂仓库结构。先从你希望被解释、复算或治理的真实问题进入。
@@ -76,7 +82,7 @@ Engine、Observer 和 Knowledge Governance 均可独立使用。组合使用时�
 | 项目 | 状态 | 准确含义 |
 |---|---|---|
 | Engine | [`v1.4.0` 稳定版](https://github.com/full-spectrum-lab/full-spectrum-engine/releases/tag/v1.4.0) · [`v1.5.0` 预发布](https://github.com/full-spectrum-lab/full-spectrum-engine/releases/tag/v1.5.0) | v1.5 为企业试点候选；Engine 2.x 尚未启动。 |
-| Observer | [`v0.3.0-beta.1` 预发布](https://github.com/full-spectrum-lab/full-spectrum-observer/releases/tag/v0.3.0-beta.1) | Windows x64 Beta；证据、审计/回放与受约束人工复核；生产就绪：否。 |
+| Observer | [`v0.3.0-beta.2` 预发布](https://github.com/full-spectrum-lab/full-spectrum-observer/releases/tag/v0.3.0-beta.2) | Windows x64 Beta；证据、审计/回放与受约束人工复核；生产就绪：否。 |
 | Observer 下一版本 | `v0.4.0-beta` — 已设计、尚未发布 | Observer 冻结需求保持不变；下游项目适配 Observer。 |
 | Knowledge Governance | [`v0.1.0-alpha` 预发布](https://github.com/full-spectrum-lab/full-spectrum-knowledge-governance/releases/tag/v0.1.0-alpha) | Windows x64 技术预览；生产就绪：否；可独立使用。 |
 | Protocol | 早期公开草案 | 已公开 Schema 与一致性检查，不宣称最终标准。 |
@@ -89,7 +95,7 @@ Engine、Observer 和 Knowledge Governance 均可独立使用。组合使用时�
 公开事实以各仓库 Release、精确 Tag、测试和随附证据为准。架构图用于解释关系，不等于功能已实现或已经生产就绪。
 
 - [运行 Engine](https://github.com/full-spectrum-lab/full-spectrum-engine#quick-start)
-- [查看 Observer v0.3.0-beta.1](https://github.com/full-spectrum-lab/full-spectrum-observer/releases/tag/v0.3.0-beta.1)
+- [查看 Observer v0.3.0-beta.2](https://github.com/full-spectrum-lab/full-spectrum-observer/releases/tag/v0.3.0-beta.2)
 - [查看合成工业案例](https://github.com/full-spectrum-lab/full-spectrum-enterprise-governance/tree/main/cases/industrial-tightening-evidence-gap)
 - [阅读 Protocol](https://github.com/full-spectrum-lab/full-spectrum-protocol/blob/main/START_HERE.md)
 
