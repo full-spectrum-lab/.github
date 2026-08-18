@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-08-01",
+  "updated_at": "2026-08-19",
   "status_vocabulary": ["DESIGNED", "IMPLEMENTED", "VERIFIED", "RELEASED", "IN_DEVELOPMENT", "NOT_RELEASED", "NOT_SUPPORTED"],
   "projects": {
     "engine": {
@@ -14,28 +14,16 @@
     },
     "observer": {
       "repository": "https://github.com/full-spectrum-lab/full-spectrum-observer",
-      "latest_release": "v0.3.0-beta.1",
-      "latest_release_url": "https://github.com/full-spectrum-lab/full-spectrum-observer/releases/tag/v0.3.0-beta.1",
-      "latest_release_label": "Identity-closed beta public pre-release; production ready NO",
-      "superseded_release": "v0.3.0-beta",
-      "verified_platforms": ["windows-x64"],
-      "not_executed_platforms": ["linux", "macos"],
-      "development_version": "v0.4.0-beta",
-      "development_status": "DESIGNED / NOT_RELEASED"
+      "latest_release": "v0.3.0-beta.2",
+      "latest_release_url": "https://github.com/full-spectrum-lab/full-spectrum-observer/releases/tag/v0.3.0-beta.2",
+      "latest_release_label": "Public beta pre-release; production verification not implied",
+      "superseded_releases": ["v0.3.0-beta.1", "v0.3.0-beta", "v0.2.0-alpha.2"],
+      "production_verification": "NOT_EVALUATED"
     },
     "protocol": {
       "repository": "https://github.com/full-spectrum-lab/full-spectrum-protocol",
       "status": "EARLY_PUBLIC_DRAFT",
       "claim": "Schemas and conformance checks are public; no final-standard claim."
-    },
-    "knowledge_governance": {
-      "repository": "https://github.com/full-spectrum-lab/full-spectrum-knowledge-governance",
-      "latest_release": "v0.1.0-alpha",
-      "latest_release_url": "https://github.com/full-spectrum-lab/full-spectrum-knowledge-governance/releases/tag/v0.1.0-alpha",
-      "latest_release_label": "Alpha technical preview / pre-release",
-      "production_ready": false,
-      "verified_platforms": ["windows-x64"],
-      "not_executed_platforms": ["linux", "macos"]
     },
     "industrial_case": {
       "repository": "https://github.com/full-spectrum-lab/full-spectrum-enterprise-governance/tree/main/cases/industrial-tightening-evidence-gap",

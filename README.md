@@ -1,17 +1,42 @@
-# Full Spectrum Lab organization governance
+# Full Spectrum Lab Organization Profile
 
-This repository maintains the GitHub organization profile, machine-readable public status and cross-repository interpretation guardrails.
+This repository maintains the public GitHub organization entry page for [Full Spectrum Lab](https://github.com/full-spectrum-lab).
 
-> Full Spectrum Lab is an evidence-first governance engineering family that separates facts, exact knowledge versions, deterministic evaluation, authorization, real-world action and replay.
+## Public entry
 
-## Canonical entry points
+- [Organization profile source](./profile/README.md)
+- [组织主页简体中文](./profile/README.zh-CN.md)
+- [Official website](https://fullspectrumprotocol.com/index.html)
+- [Protocol](https://github.com/full-spectrum-lab/full-spectrum-protocol)
+- [Local Governance Engine](https://github.com/full-spectrum-lab/full-spectrum-engine)
+- [Observer Application](https://github.com/full-spectrum-lab/full-spectrum-observer)
+- [Enterprise Governance Cases](https://github.com/full-spectrum-lab/full-spectrum-enterprise-governance)
+- [Commons, Evidence, Research and Public Writing](https://github.com/full-spectrum-lab/full-spectrum-commons)
 
-- [Organization profile](./profile/README.md) · [中文](./profile/README.zh-CN.md)
-- [Machine-readable public status](./status/public-status.json)
-- [Machine-readable ecosystem boundaries](./ecosystem/ecosystem-manifest.json)
-- [Canonical AI reading context](./ecosystem/AI_CONTEXT.md)
-- [Misinterpretation guard](./ecosystem/MISINTERPRETATION_GUARD.md)
-- [Public terminology](./ecosystem/GLOSSARY.md)
-- [AI comprehension test](./ecosystem/AI_COMPREHENSION_TEST.md)
+## Positioning
 
-Engine, Observer and Knowledge Governance are independently usable products. Composition is optional and uses explicit contracts or adapters. This repository does not replace each product repository's releases, tests or evidence.
+The public stack is organized as:
+
+```text
+Protocol contracts
+→ local Observer Engine
+→ enterprise cases and review workflows
+→ evidence, research and public orientation
+```
+
+The first-generation observer can be used locally and offline. It does not require an organization to join a public identity, certification, or protocol network, and it does not execute final enterprise actions.
+
+## Current public releases
+
+- Engine `v1.4.0`: latest stable release;
+- Engine `v1.5.0`: enterprise-pilot candidate pre-release;
+- Observer `v0.3.0-beta.2`: current public beta pre-release;
+- Observer `v0.3.0-beta.1`, `v0.3.0-beta`, and `v0.2.0-alpha.2`: superseded releases.
+
+The current beta is not a claim of production verification, enterprise integration, or production readiness.
+
+This repository also provides organization-wide contribution, security, support, pull-request and issue templates.
+
+## Boundary
+
+The organization is in early public build-out. It does not claim final standard status, regulatory approval, production compliance guarantees, completed protocol-network interoperability, or peer review for public working papers unless explicitly stated.
