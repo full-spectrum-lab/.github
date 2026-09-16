@@ -47,31 +47,46 @@ def main() -> int:
     require(ecosystem.get("real_world_action_owner") == "authorized_external_actor_or_system", "real-world action boundary changed", errors)
     require(bool(re.fullmatch(r"\d{4}-\d{2}-\d{2}", data.get("updated_at", ""))), "updated_at must be YYYY-MM-DD", errors)
     projects = data.get("projects", {})
-    for name in ("engine", "observer", "protocol", "industrial_case"):
+    for name in ("engine", "observer", "knowledge_governance", "protocol", "industrial_case"):
         require(name in projects, f"missing project status: {name}", errors)
     for name in ("protocol", "engine", "knowledge_governance", "observer"):
         require(name in ecosystem.get("tracks", {}), f"missing ecosystem track: {name}", errors)
 
     engine = projects.get("engine", {})
     observer = projects.get("observer", {})
+    knowledge = projects.get("knowledge_governance", {})
     for key in ("stable_release", "preview_release"):
         require(bool(SEMVER.fullmatch(engine.get(key, ""))), f"invalid engine {key}", errors)
-    for key in ("latest_release", "development_version"):
+    for key in ("latest_preview_release", "maintenance_release"):
         require(bool(SEMVER.fullmatch(observer.get(key, ""))), f"invalid observer {key}", errors)
-    require("NOT_RELEASED" in observer.get("development_status", ""), "Observer development line must say NOT_RELEASED", errors)
+    require(observer.get("production_ready") is False, "Observer must not claim production readiness", errors)
+    require(bool(SEMVER.fullmatch(knowledge.get("latest_preview_release", ""))), "invalid Knowledge Governance latest_preview_release", errors)
+    require(knowledge.get("production_ready") is False, "Knowledge Governance must not claim production readiness", errors)
 
     industrial = projects.get("industrial_case", {})
     require(industrial.get("production_validated") is False, "industrial case must not claim production validation", errors)
     require(industrial.get("named_customer") is False, "industrial case must not claim a named customer", errors)
 
     profiles = "\n".join(path.read_text(encoding="utf-8") for path in PROFILE_FILES)
-    for value in (engine.get("stable_release"), engine.get("preview_release"), observer.get("latest_release"), observer.get("development_version")):
+    for value in (
+        engine.get("stable_release"),
+        engine.get("preview_release"),
+        observer.get("latest_preview_release"),
+        observer.get("maintenance_release"),
+        knowledge.get("latest_preview_release"),
+    ):
         require(bool(value and value in profiles), f"profile does not mention {value}", errors)
-    for required in ("agent runtime", "APM", "RAG", "independently usable", "可独立使用"):
+    for required in ("agent runtime", "APM", "RAG", "independently", "可独立使用"):
         require(required.lower() in profiles.lower(), f"profile is missing boundary phrase: {required}", errors)
 
     if args.online:
-        for url in (engine["stable_release_url"], engine["preview_release_url"], observer["latest_release_url"]):
+        for url in (
+            engine["stable_release_url"],
+            engine["preview_release_url"],
+            observer["latest_preview_release_url"],
+            observer["maintenance_release_url"],
+            knowledge["latest_preview_release_url"],
+        ):
             check_url(url, errors)
 
     if errors:

@@ -1,5 +1,9 @@
 # Full Spectrum Lab
 
+创建时间：2026-07-16 17:35 UTC+8
+
+最后更新时间：2026-09-16 21:20 UTC+8
+
 ### 面向 AI 与复杂系统的证据优先治理工程体系
 
 [English](./README.md) · [简体中文](./README.zh-CN.md)
@@ -7,6 +11,26 @@
 > Full Spectrum Lab 用工程契约分离**事实、精确知识版本、确定性判断、授权、现实行动与事后回放**。
 
 它不是 Agent 操作系统、任务规划器、工作流编排平台、通用可观测平台、RAG 知识库或自动处罚系统。现实行动始终由获得授权的人、组织或外部业务系统完成。
+
+## 第一次来到全频谱：五分钟阅读路径
+
+你不需要先理解全部概念，也不需要依次读完所有仓库。先选择你现在最想解决的问题：
+
+1. **我想先知道全频谱是什么**：阅读[从你的问题开始](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/start-from-your-question.zh-CN.md)和[四条可独立使用的工程轨道](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/four-independent-engineering-tracks.md)。
+2. **我想运行一个可复算示例**：进入 [Engine 中文说明](https://github.com/full-spectrum-lab/full-spectrum-engine/blob/main/README.zh-CN.md)和[五分钟入门](https://github.com/full-spectrum-lab/full-spectrum-engine/blob/main/docs/getting-started-5min.md)。
+3. **我想查看证据、审计和回放**：进入 [Observer 中文说明](https://github.com/full-spectrum-lab/full-spectrum-observer/blob/main/README.zh-CN.md)和 [Observer Releases](https://github.com/full-spectrum-lab/full-spectrum-observer/releases)。
+4. **我想确认使用了哪一份知识**：进入 [Knowledge Governance 中文入口](https://github.com/full-spectrum-lab/full-spectrum-knowledge-governance/blob/master/README.zh-CN.md)和 [KG Releases](https://github.com/full-spectrum-lab/full-spectrum-knowledge-governance/releases)。
+5. **我想研究身份、权限和责任协议**：进入 [Protocol 中文说明](https://github.com/full-spectrum-lab/full-spectrum-protocol/blob/main/README.zh-CN.md)和 [Protocol 起点](https://github.com/full-spectrum-lab/full-spectrum-protocol/blob/main/START_HERE.md)。
+6. **我想用于企业或行业问题**：从 [Enterprise Governance](https://github.com/full-spectrum-lab/full-spectrum-enterprise-governance) 的合成案例开始；案例不等于真实客户部署。
+
+阅读时请始终区分：
+
+```text
+概念设想 ≠ 协议规范 ≠ Schema ≠ 代码实现 ≠ 测试通过
+         ≠ 固定场景组合验证 ≠ 一般兼容 ≠ 真实网络 ≠ 生产就绪
+```
+
+公开能力以对应仓库的固定代码、Release、测试和 Evidence 为准。架构图和研究文章用于解释关系与来源，不能单独证明功能已经实现。
 
 [![Engine CI](https://github.com/full-spectrum-lab/full-spectrum-engine/actions/workflows/ci.yml/badge.svg)](https://github.com/full-spectrum-lab/full-spectrum-engine/actions/workflows/ci.yml)
 [![Protocol Schemas](https://github.com/full-spectrum-lab/full-spectrum-protocol/actions/workflows/schema-check.yml/badge.svg)](https://github.com/full-spectrum-lab/full-spectrum-protocol/actions/workflows/schema-check.yml)
@@ -82,9 +106,9 @@ Engine、Observer 和 Knowledge Governance 均可独立使用。组合使用时�
 | 项目 | 状态 | 准确含义 |
 |---|---|---|
 | Engine | [`v1.4.0` 稳定版](https://github.com/full-spectrum-lab/full-spectrum-engine/releases/tag/v1.4.0) · [`v1.5.0` 预发布](https://github.com/full-spectrum-lab/full-spectrum-engine/releases/tag/v1.5.0) | v1.5 为企业试点候选；Engine 2.x 尚未启动。 |
-| Observer | [`v0.3.0-beta.2` 预发布](https://github.com/full-spectrum-lab/full-spectrum-observer/releases/tag/v0.3.0-beta.2) | Windows x64 Beta；证据、审计/回放与受约束人工复核；生产就绪：否。 |
-| Observer 下一版本 | `v0.4.0-beta` — 已设计、尚未发布 | Observer 冻结需求保持不变；下游项目适配 Observer。 |
-| Knowledge Governance | [`v0.1.0-alpha` 预发布](https://github.com/full-spectrum-lab/full-spectrum-knowledge-governance/releases/tag/v0.1.0-alpha) | Windows x64 技术预览；生产就绪：否；可独立使用。 |
+| Observer 最新预发布 | [`v0.4.0-beta`](https://github.com/full-spectrum-lab/full-spectrum-observer/releases/tag/v0.4.0-beta) | Windows x64 公开预发布；不是稳定版；生产就绪：否。 |
+| Observer 维护线 | [`v0.3.0-maintenance.6`](https://github.com/full-spectrum-lab/full-spectrum-observer/releases/tag/v0.3.0-maintenance.6) | 已验证维护候选；`NOT_RELEASED / PRODUCTION_READY=NO`。 |
+| Knowledge Governance | [`v0.2.0-alpha` 预发布](https://github.com/full-spectrum-lab/full-spectrum-knowledge-governance/releases/tag/v0.2.0-alpha) | Windows x64 技术候选；92/92 工程测试；Linux/macOS 未执行；生产就绪：否。 |
 | Protocol | 早期公开草案 | 已公开 Schema 与一致性检查，不宣称最终标准。 |
 | 工业案例 | 设计完成 / fixture 已验证 | 完全合成、无具名客户、未经生产验证。 |
 
@@ -95,7 +119,7 @@ Engine、Observer 和 Knowledge Governance 均可独立使用。组合使用时�
 公开事实以各仓库 Release、精确 Tag、测试和随附证据为准。架构图用于解释关系，不等于功能已实现或已经生产就绪。
 
 - [运行 Engine](https://github.com/full-spectrum-lab/full-spectrum-engine#quick-start)
-- [查看 Observer v0.3.0-beta.2](https://github.com/full-spectrum-lab/full-spectrum-observer/releases/tag/v0.3.0-beta.2)
+- [查看 Observer v0.4.0-beta](https://github.com/full-spectrum-lab/full-spectrum-observer/releases/tag/v0.4.0-beta)
 - [查看合成工业案例](https://github.com/full-spectrum-lab/full-spectrum-enterprise-governance/tree/main/cases/industrial-tightening-evidence-gap)
 - [阅读 Protocol](https://github.com/full-spectrum-lab/full-spectrum-protocol/blob/main/START_HERE.md)
 

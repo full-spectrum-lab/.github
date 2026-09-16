@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-08-19",
+  "updated_at": "2026-09-16",
   "status_vocabulary": ["DESIGNED", "IMPLEMENTED", "VERIFIED", "RELEASED", "IN_DEVELOPMENT", "NOT_RELEASED", "NOT_SUPPORTED"],
   "projects": {
     "engine": {
@@ -10,15 +10,29 @@
       "preview_release": "v1.5.0",
       "preview_release_url": "https://github.com/full-spectrum-lab/full-spectrum-engine/releases/tag/v1.5.0",
       "preview_label": "Enterprise Pilot Candidate / Pre-release",
+      "preview_engineering_tests": "285 pytest cases + 3 subtests",
+      "stable_regression_black_box": "9/9",
       "next_generation": "NOT_STARTED"
     },
     "observer": {
       "repository": "https://github.com/full-spectrum-lab/full-spectrum-observer",
-      "latest_release": "v0.3.0-beta.2",
-      "latest_release_url": "https://github.com/full-spectrum-lab/full-spectrum-observer/releases/tag/v0.3.0-beta.2",
-      "latest_release_label": "Public beta pre-release; production verification not implied",
-      "superseded_releases": ["v0.3.0-beta.1", "v0.3.0-beta", "v0.2.0-alpha.2"],
-      "production_verification": "NOT_EVALUATED"
+      "latest_preview_release": "v0.4.0-beta",
+      "latest_preview_release_url": "https://github.com/full-spectrum-lab/full-spectrum-observer/releases/tag/v0.4.0-beta",
+      "latest_preview_label": "Public pre-release; not stable; production_ready=NO",
+      "maintenance_release": "v0.3.0-maintenance.6",
+      "maintenance_release_url": "https://github.com/full-spectrum-lab/full-spectrum-observer/releases/tag/v0.3.0-maintenance.6",
+      "maintenance_label": "Validated maintenance candidate; status=NOT_RELEASED; production_ready=NO",
+      "superseded_releases": ["v0.3.0-maintenance.5", "v0.3.0-beta.2", "v0.3.0-beta.1", "v0.3.0-beta", "v0.2.0-alpha.2"],
+      "production_ready": false
+    },
+    "knowledge_governance": {
+      "repository": "https://github.com/full-spectrum-lab/full-spectrum-knowledge-governance",
+      "latest_preview_release": "v0.2.0-alpha",
+      "latest_preview_release_url": "https://github.com/full-spectrum-lab/full-spectrum-knowledge-governance/releases/tag/v0.2.0-alpha",
+      "latest_preview_label": "Windows x64 framework-dependent pre-release candidate",
+      "engineering_tests": "92/92",
+      "linux_macos": "NOT_EXECUTED",
+      "production_ready": false
     },
     "protocol": {
       "repository": "https://github.com/full-spectrum-lab/full-spectrum-protocol",

@@ -1,5 +1,9 @@
 # Full Spectrum Lab Organization Profile
 
+Created at: 2026-07-08 19:02 UTC+8
+
+Last updated at: 2026-09-16 21:20 UTC+8
+
 This repository maintains the public GitHub organization entry page for [Full Spectrum Lab](https://github.com/full-spectrum-lab).
 
 ## Public entry
@@ -30,8 +34,9 @@ The first-generation observer can be used locally and offline. It does not requi
 
 - Engine `v1.4.0`: latest stable release;
 - Engine `v1.5.0`: enterprise-pilot candidate pre-release;
-- Observer `v0.3.0-beta.2`: current public beta pre-release;
-- Observer `v0.3.0-beta.1`, `v0.3.0-beta`, and `v0.2.0-alpha.2`: superseded releases.
+- Observer `v0.4.0-beta`: latest public pre-release; not stable and not production-ready;
+- Observer `v0.3.0-maintenance.6`: current maintenance candidate; `NOT_RELEASED / PRODUCTION_READY=NO`;
+- Knowledge Governance `v0.2.0-alpha`: latest Windows x64 pre-release candidate; production-ready `NO`.
 
 The current beta is not a claim of production verification, enterprise integration, or production readiness.
 

@@ -1,5 +1,9 @@
 # Full Spectrum Lab
 
+Created at: 2026-07-09 16:02 UTC+8
+
+Last updated at: 2026-09-16 21:20 UTC+8
+
 ### Evidence-first governance engineering for AI and complex systems
 
 [English](./README.md) · [简体中文](./README.zh-CN.md)
@@ -7,6 +11,26 @@
 > Full Spectrum Lab separates **facts**, **exact knowledge versions**, **deterministic evaluation**, **authorization**, **real-world action**, and **replay**.
 
 It is **not** an agent operating system, planner, workflow orchestrator, generic observability platform, RAG knowledge base, or automatic enforcement system. Final real-world action remains with an authorized human, organization, or external business system.
+
+## First visit: a five-minute path
+
+You do not need to understand every concept or read every repository in order. Start with the question you need to answer:
+
+1. **What is Full Spectrum?** Read [Start from Your Question](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/start-from-your-question.md) and [Four Independent Engineering Tracks](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/four-independent-engineering-tracks.md).
+2. **Can I run a reproducible example?** Open the [Engine](https://github.com/full-spectrum-lab/full-spectrum-engine) and its [five-minute guide](https://github.com/full-spectrum-lab/full-spectrum-engine/blob/main/docs/getting-started-5min.md).
+3. **Where are Evidence, Audit and Replay?** Open [Observer](https://github.com/full-spectrum-lab/full-spectrum-observer) and its [Releases](https://github.com/full-spectrum-lab/full-spectrum-observer/releases).
+4. **Which exact knowledge version was used?** Open [Knowledge Governance](https://github.com/full-spectrum-lab/full-spectrum-knowledge-governance) and its [Releases](https://github.com/full-spectrum-lab/full-spectrum-knowledge-governance/releases).
+5. **How are identity, permission and responsibility represented?** Open the [Protocol](https://github.com/full-spectrum-lab/full-spectrum-protocol/blob/main/START_HERE.md).
+6. **How could this map to an enterprise problem?** Start with the synthetic cases in [Enterprise Governance](https://github.com/full-spectrum-lab/full-spectrum-enterprise-governance); a case is not evidence of customer deployment.
+
+Always preserve this distinction:
+
+```text
+Concept != specification != schema != implementation != passing tests
+        != fixed-scenario integration != general compatibility != real network != production readiness
+```
+
+Repository code, exact Releases, tests and Evidence define current capability. Diagrams and research explain relationships and origins; they do not independently prove implementation.
 
 [![Engine CI](https://github.com/full-spectrum-lab/full-spectrum-engine/actions/workflows/ci.yml/badge.svg)](https://github.com/full-spectrum-lab/full-spectrum-engine/actions/workflows/ci.yml)
 [![Protocol Schemas](https://github.com/full-spectrum-lab/full-spectrum-protocol/actions/workflows/schema-check.yml/badge.svg)](https://github.com/full-spectrum-lab/full-spectrum-protocol/actions/workflows/schema-check.yml)
@@ -82,9 +106,9 @@ Supporting repositories: [Enterprise Governance](https://github.com/full-spectru
 | Project | Public status | Meaning |
 |---|---|---|
 | Engine | [`v1.4.0` stable](https://github.com/full-spectrum-lab/full-spectrum-engine/releases/tag/v1.4.0) · [`v1.5.0` pre-release](https://github.com/full-spectrum-lab/full-spectrum-engine/releases/tag/v1.5.0) | v1.5 is an enterprise-pilot candidate; Engine 2.x has not started. |
-| Observer | [`v0.3.0-beta.2` pre-release](https://github.com/full-spectrum-lab/full-spectrum-observer/releases/tag/v0.3.0-beta.2) | Windows x64 beta; evidence, audit/replay and bounded human review; production-ready `NO`. |
-| Observer next | `v0.4.0-beta` — designed, not released | Frozen Observer requirements remain authoritative; downstream projects adapt to Observer. |
-| Knowledge Governance | [`v0.1.0-alpha` pre-release](https://github.com/full-spectrum-lab/full-spectrum-knowledge-governance/releases/tag/v0.1.0-alpha) | Windows x64 technical preview; production-ready `NO`; independently usable. |
+| Observer latest preview | [`v0.4.0-beta`](https://github.com/full-spectrum-lab/full-spectrum-observer/releases/tag/v0.4.0-beta) | Windows x64 public pre-release; not stable; production-ready `NO`. |
+| Observer maintenance line | [`v0.3.0-maintenance.6`](https://github.com/full-spectrum-lab/full-spectrum-observer/releases/tag/v0.3.0-maintenance.6) | Validated maintenance candidate; `NOT_RELEASED / PRODUCTION_READY=NO`. |
+| Knowledge Governance | [`v0.2.0-alpha` pre-release](https://github.com/full-spectrum-lab/full-spectrum-knowledge-governance/releases/tag/v0.2.0-alpha) | Windows x64 candidate; 92/92 engineering tests; Linux/macOS not executed; production-ready `NO`. |
 | Protocol | Early public draft | Public schemas and conformance checks; no final-standard claim. |
 | Industrial case | Designed / fixture-validated | Synthetic, unnamed and not production validated. |
 
@@ -95,7 +119,7 @@ Supporting repositories: [Enterprise Governance](https://github.com/full-spectru
 Start with a repository's release page, exact tag, tests and attached evidence. Diagrams explain architecture; they do not prove implementation or production readiness.
 
 - [Run Engine](https://github.com/full-spectrum-lab/full-spectrum-engine#quick-start)
-- [Inspect Observer v0.3.0-beta.2](https://github.com/full-spectrum-lab/full-spectrum-observer/releases/tag/v0.3.0-beta.2)
+- [Inspect Observer v0.4.0-beta](https://github.com/full-spectrum-lab/full-spectrum-observer/releases/tag/v0.4.0-beta)
 - [Inspect the synthetic industrial case](https://github.com/full-spectrum-lab/full-spectrum-enterprise-governance/tree/main/cases/industrial-tightening-evidence-gap)
 - [Read Protocol](https://github.com/full-spectrum-lab/full-spectrum-protocol/blob/main/START_HERE.md)
 
