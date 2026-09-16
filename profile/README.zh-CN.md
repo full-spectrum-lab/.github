@@ -12,6 +12,17 @@
 
 它不是 Agent 操作系统、任务规划器、工作流编排平台、通用可观测平台、RAG 知识库或自动处罚系统。现实行动始终由获得授权的人、组织或外部业务系统完成。
 
+## 公共状态头
+
+| 字段 | 当前值 |
+|---|---|
+| `ROLE` | 组织级公共入口和跨仓库导航 |
+| `STATUS` | 当前有效的公共理解页面 |
+| `CURRENT_CAPABILITY` | 五分钟入口、仓库边界、版本真相和证据导航 |
+| `NOT_CLAIMED` | 运行时权限、协议权威、生产认证或自动代表项目发言 |
+| `PRODUCTION_READY` | 本导航页不适用；各产品以具体 Release 为准，当前生态不宣称整体生产就绪 |
+| `START_HERE` | [五分钟阅读路径](#第一次来到全频谱五分钟阅读路径) · [公共架构图](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/public-architecture-map.zh-CN.md) |
+
 ## 第一次来到全频谱：五分钟阅读路径
 
 你不需要先理解全部概念，也不需要依次读完所有仓库。先选择你现在最想解决的问题：

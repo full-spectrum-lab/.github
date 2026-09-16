@@ -12,6 +12,17 @@ Last updated at: 2026-09-16 22:05 UTC+8
 
 It is **not** an agent operating system, planner, workflow orchestrator, generic observability platform, RAG knowledge base, or automatic enforcement system. Final real-world action remains with an authorized human, organization, or external business system.
 
+## Public status header
+
+| Field | Value |
+|---|---|
+| `ROLE` | Organization-level public entry and cross-repository navigation |
+| `STATUS` | Active public orientation page |
+| `CURRENT_CAPABILITY` | Five-minute entry path, repository boundaries, release truth and evidence navigation |
+| `NOT_CLAIMED` | Runtime authority, protocol authority, production certification or autonomous representation |
+| `PRODUCTION_READY` | Not applicable to this navigation page; product readiness remains release-specific and currently not claimed across the ecosystem |
+| `START_HERE` | [Five-minute path](#first-visit-a-five-minute-path) · [Public Architecture Map](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/public-architecture-map.md) |
+
 ## First visit: a five-minute path
 
 You do not need to understand every concept or read every repository in order. Start with the question you need to answer:
