@@ -2,7 +2,18 @@
 
 Created at: 2026-07-08 19:02 UTC+8
 
-Last updated at: 2026-09-16 21:20 UTC+8
+Last updated at: 2026-09-16 22:05 UTC+8
+
+## Public status header
+
+| Field | Value |
+|---|---|
+| `ROLE` | Organization-level public entry, status truth and cross-repository boundary guard |
+| `STATUS` | Active public coordination repository |
+| `CURRENT_CAPABILITY` | Organization profile, machine-readable release status, terminology and contribution policies |
+| `NOT_CLAIMED` | Runtime authority, protocol authority or production certification |
+| `PRODUCTION_READY` | Not applicable; this repository is public coordination metadata |
+| `START_HERE` | [Organization profile](./profile/README.md) · [中文](./profile/README.zh-CN.md) |
 
 This repository maintains the public GitHub organization entry page for [Full Spectrum Lab](https://github.com/full-spectrum-lab).
 
@@ -16,6 +27,9 @@ This repository maintains the public GitHub organization entry page for [Full Sp
 - [Observer Application](https://github.com/full-spectrum-lab/full-spectrum-observer)
 - [Enterprise Governance Cases](https://github.com/full-spectrum-lab/full-spectrum-enterprise-governance)
 - [Commons, Evidence, Research and Public Writing](https://github.com/full-spectrum-lab/full-spectrum-commons)
+- [Public Architecture Map](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/public-architecture-map.md)
+- [One-page Research Brief](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/full-spectrum-research-brief.md)
+- [Common Misinterpretations](./ecosystem/MISINTERPRETATION_GUARD.md) · [中文](./ecosystem/MISINTERPRETATION_GUARD.zh-CN.md)
 
 ## Positioning
 

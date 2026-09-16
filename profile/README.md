@@ -2,7 +2,7 @@
 
 Created at: 2026-07-09 16:02 UTC+8
 
-Last updated at: 2026-09-16 21:20 UTC+8
+Last updated at: 2026-09-16 22:05 UTC+8
 
 ### Evidence-first governance engineering for AI and complex systems
 
@@ -31,6 +31,11 @@ Concept != specification != schema != implementation != passing tests
 ```
 
 Repository code, exact Releases, tests and Evidence define current capability. Diagrams and research explain relationships and origins; they do not independently prove implementation.
+
+- [Public Architecture Map](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/public-architecture-map.md)
+- [One-page Research Brief](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/full-spectrum-research-brief.md)
+- [Common Misinterpretations](https://github.com/full-spectrum-lab/.github/blob/main/ecosystem/MISINTERPRETATION_GUARD.md)
+- [Seven Observation Paths](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/research/civilization-systems-architecture/09_Full_Spectrum多尺度理解模型_七条观察路径.md)
 
 [![Engine CI](https://github.com/full-spectrum-lab/full-spectrum-engine/actions/workflows/ci.yml/badge.svg)](https://github.com/full-spectrum-lab/full-spectrum-engine/actions/workflows/ci.yml)
 [![Protocol Schemas](https://github.com/full-spectrum-lab/full-spectrum-protocol/actions/workflows/schema-check.yml/badge.svg)](https://github.com/full-spectrum-lab/full-spectrum-protocol/actions/workflows/schema-check.yml)

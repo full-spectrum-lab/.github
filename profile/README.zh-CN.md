@@ -2,7 +2,7 @@
 
 创建时间：2026-07-16 17:35 UTC+8
 
-最后更新时间：2026-09-16 21:20 UTC+8
+最后更新时间：2026-09-16 22:05 UTC+8
 
 ### 面向 AI 与复杂系统的证据优先治理工程体系
 
@@ -31,6 +31,11 @@
 ```
 
 公开能力以对应仓库的固定代码、Release、测试和 Evidence 为准。架构图和研究文章用于解释关系与来源，不能单独证明功能已经实现。
+
+- [一张图理解公共架构](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/public-architecture-map.zh-CN.md)
+- [常见误读与准确边界](https://github.com/full-spectrum-lab/.github/blob/main/ecosystem/MISINTERPRETATION_GUARD.zh-CN.md)
+- [七条观察路径](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/research/civilization-systems-architecture/09_Full_Spectrum多尺度理解模型_七条观察路径.md)
+- [陌生访客独立复核清单](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/external-visitor-review.zh-CN.md)
 
 [![Engine CI](https://github.com/full-spectrum-lab/full-spectrum-engine/actions/workflows/ci.yml/badge.svg)](https://github.com/full-spectrum-lab/full-spectrum-engine/actions/workflows/ci.yml)
 [![Protocol Schemas](https://github.com/full-spectrum-lab/full-spectrum-protocol/actions/workflows/schema-check.yml/badge.svg)](https://github.com/full-spectrum-lab/full-spectrum-protocol/actions/workflows/schema-check.yml)
