@@ -1,8 +1,13 @@
-# Full Spectrum Lab
-
 Created at: 2026-07-09 16:02 UTC+8
+Last updated at: 2026-10-13 01:45 (Asia/Shanghai, UTC+8)
+Document ID: FS-ORG-PROFILE-README
+Version: v0.1-candidate-navigation
+Status: PUBLIC_ORIENTATION / NON_NORMATIVE
+Responsible author: Organization maintainers; navigation revision by Codex
+Scope: First-visit navigation only; no release or capability promotion
+Fact baseline: Commons 9868a82f4b89095d870c502acc952ccc7b6bc865; existing product status statements unchanged
 
-Last updated at: 2026-09-16 22:05 UTC+8
+# Full Spectrum Lab
 
 ### Evidence-first governance engineering for AI and complex systems
 
@@ -24,6 +29,14 @@ It is **not** an agent operating system, planner, workflow orchestrator, generic
 | `START_HERE` | [Five-minute path](#first-visit-a-five-minute-path) · [Public Architecture Map](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/public-architecture-map.md) |
 
 ## First visit: a five-minute path
+
+Choose one of three entry paths; these are reading choices, not mandatory runtime stages:
+
+1. **Understand the whole:** [Whole-system and recursion guide](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/whole-system-and-recursion.md) · [中文](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/whole-system-and-recursion.zh-CN.md). Autonomous subjects retain boundaries, collaborate horizontally and recompute within larger contexts; four engineering tracks do not define the entire system.
+2. **See bounded executions:** [Refund, logistics and evidence linkage](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/examples/three-act-demonstration.md) · [中文](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/examples/three-act-demonstration.zh-CN.md). Synthetic cases were executed separately; they are not a joined governance loop or customer deployment.
+3. **Check evidence and reproduce:** [Fixed sources, commands and limits](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/examples/evidence/three-act-20261012/README.md) · [Windows and reported cloud Linux reproduction file review (Chinese)](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/examples/evidence/three-act-20261012/reproduction-review.zh-CN.md). File review is not certification; original reproduction packages are retained locally, not downloadable from that review page.
+
+### Choose a repository for your question
 
 You do not need to understand every concept or read every repository in order. Start with the question you need to answer:
 
