@@ -1,11 +1,11 @@
 Created at: 2026-07-09 16:02 UTC+8
-Last updated at: 2026-10-13 01:45 (Asia/Shanghai, UTC+8)
+Last updated at: 2026-10-13 03:10 (Asia/Shanghai, UTC+8)
 Document ID: FS-ORG-PROFILE-README
-Version: v0.1-candidate-navigation
+Version: v0.2-candidate-reader-feedback
 Status: PUBLIC_ORIENTATION / NON_NORMATIVE
 Responsible author: Organization maintainers; navigation revision by Codex
 Scope: First-visit navigation only; no release or capability promotion
-Fact baseline: Commons 9868a82f4b89095d870c502acc952ccc7b6bc865; existing product status statements unchanged
+Fact baseline: Commons 741f5af62fc4b050cfba7ee71267d0fed26305e7; organization a45e39b2d26b00d850f795ef1d76d8d5c624e562; existing product status statements unchanged
 
 # Full Spectrum Lab
 
@@ -14,6 +14,10 @@ Fact baseline: Commons 9868a82f4b89095d870c502acc952ccc7b6bc865; existing produc
 [English](./README.md) · [简体中文](./README.zh-CN.md)
 
 > Full Spectrum Lab separates **facts**, **exact knowledge versions**, **deterministic evaluation**, **authorization**, **real-world action**, and **replay**.
+
+Full Spectrum's overall design asks how people, AI, teams and organizations retain their own boundaries, cooperate, make accountable judgments and learn from feedback without erasing history. It is not just an audit toolbox or the Engine: Protocol, Engine, Knowledge Governance and Observer are four engineering responsibility domains supporting that design, not its entire definition. Read the [whole-system guide](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/whole-system-and-recursion.md) first if you want this broader picture; the design does not prove a complete recursive runtime.
+
+中文：全频谱关注人、AI、团队和组织如何保留各自边界、协作、作出有依据的判断，并通过反馈改进而不抹去历史。四个产品承接工程职责，不等于体系全部，也不证明整体已实现。[先理解整体](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/whole-system-and-recursion.zh-CN.md)。
 
 It is **not** an agent operating system, planner, workflow orchestrator, generic observability platform, RAG knowledge base, or automatic enforcement system. Final real-world action remains with an authorized human, organization, or external business system.
 
@@ -41,11 +45,11 @@ Choose one of three entry paths; these are reading choices, not mandatory runtim
 You do not need to understand every concept or read every repository in order. Start with the question you need to answer:
 
 1. **What is Full Spectrum?** Read [Start from Your Question](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/start-from-your-question.md) and [Four Independent Engineering Tracks](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/four-independent-engineering-tracks.md).
-2. **Can I run a reproducible example?** Open the [Engine](https://github.com/full-spectrum-lab/full-spectrum-engine) and its [five-minute guide](https://github.com/full-spectrum-lab/full-spectrum-engine/blob/main/docs/getting-started-5min.md).
+2. **Can I run a reproducible example?** Use the [fixed-commit refund and logistics reproduction steps](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/examples/evidence/three-act-20261012/README.md#start-here-reproduce-the-two-engine-cases). The [Engine five-minute guide](https://github.com/full-spectrum-lab/full-spectrum-engine/blob/main/docs/getting-started-5min.md) is a separate general quick start, not this fixed evidence baseline.
 3. **Where are Evidence, Audit and Replay?** Open [Observer](https://github.com/full-spectrum-lab/full-spectrum-observer) and its [Releases](https://github.com/full-spectrum-lab/full-spectrum-observer/releases).
 4. **Which exact knowledge version was used?** Open [Knowledge Governance](https://github.com/full-spectrum-lab/full-spectrum-knowledge-governance) and its [Releases](https://github.com/full-spectrum-lab/full-spectrum-knowledge-governance/releases).
 5. **How are identity, permission and responsibility represented?** Open the [Protocol](https://github.com/full-spectrum-lab/full-spectrum-protocol/blob/main/START_HERE.md).
-6. **How could this map to an enterprise problem?** Start with the synthetic cases in [Enterprise Governance](https://github.com/full-spectrum-lab/full-spectrum-enterprise-governance); a case is not evidence of customer deployment.
+6. **How could this map to an enterprise problem?** Read the synthetic cases in [Enterprise Governance](https://github.com/full-spectrum-lab/full-spectrum-enterprise-governance). Its [refund-overcommitment case](https://github.com/full-spectrum-lab/full-spectrum-enterprise-governance/tree/main/cases/refund-overcommitment) is a scenario design description, not a standalone runnable package or customer deployment; for actual reproduction use the fixed Engine steps above. These are separate case materials, not interchangeable IDs or evidence.
 
 Always preserve this distinction:
 
