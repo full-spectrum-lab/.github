@@ -1,17 +1,25 @@
 Created at: 2026-07-09 16:02 UTC+8
-Last updated at: 2026-10-13 03:10 (Asia/Shanghai, UTC+8)
+Last updated at: 2026-10-13 03:41 (Asia/Shanghai, UTC+8)
 Document ID: FS-ORG-PROFILE-README
-Version: v0.2-candidate-reader-feedback
+Version: v0.3-candidate-cube-entry
 Status: PUBLIC_ORIENTATION / NON_NORMATIVE
 Responsible author: Organization maintainers; navigation revision by Codex
 Scope: First-visit navigation only; no release or capability promotion
-Fact baseline: Commons 741f5af62fc4b050cfba7ee71267d0fed26305e7; organization a45e39b2d26b00d850f795ef1d76d8d5c624e562; existing product status statements unchanged
+Fact baseline: Commons c21c1554cd188e2c06aad31e188b9cabc4c646f2; organization ec4bab8fc410decbe546dffb0c78d4b1d1c006cf; existing product status statements unchanged
 
 # Full Spectrum Lab
 
 ### Evidence-first governance engineering for AI and complex systems
 
 [English](./README.md) · [简体中文](./README.zh-CN.md)
+
+## 先看整体：用魔方理解全频谱 / Start with the whole: the cube analogy
+
+**[用魔方理解局部、关系与整体（中文导读）](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/whole-system-and-recursion.zh-CN.md)** · [English guide](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/whole-system-and-recursion.md)
+
+人、AI、部门和组织怎样保留边界、相互协作？为什么局部正常，整体仍可能有问题？这篇导读用魔方帮助理解：局部、关系与整体不能互相替代。魔方是理解比喻，不表示机械联动，也不证明完整系统已经运行。
+
+How do people, AI, teams and organizations retain boundaries and cooperate? Why can locally normal parts still have a problem in their relationships? The cube is an analogy for understanding the whole, not mechanical causation or proof of a complete runtime.
 
 > Full Spectrum Lab separates **facts**, **exact knowledge versions**, **deterministic evaluation**, **authorization**, **real-world action**, and **replay**.
 
@@ -36,7 +44,7 @@ It is **not** an agent operating system, planner, workflow orchestrator, generic
 
 Choose one of three entry paths; these are reading choices, not mandatory runtime stages:
 
-1. **Understand the whole:** [Whole-system and recursion guide](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/whole-system-and-recursion.md) · [中文](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/whole-system-and-recursion.zh-CN.md). Autonomous subjects retain boundaries, collaborate horizontally and recompute within larger contexts; four engineering tracks do not define the entire system.
+1. **先看整体 / Understand the whole:** [用魔方理解全频谱](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/whole-system-and-recursion.zh-CN.md) · [The cube analogy and recursion (English)](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/whole-system-and-recursion.md). Understand why parts, relationships and the whole cannot substitute for one another; four engineering tracks do not define the entire system.
 2. **See bounded executions:** [Refund, logistics and evidence linkage](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/examples/three-act-demonstration.md) · [中文](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/examples/three-act-demonstration.zh-CN.md). Synthetic cases were executed separately; they are not a joined governance loop or customer deployment.
 3. **Check evidence and reproduce:** [Fixed sources, commands and limits](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/examples/evidence/three-act-20261012/README.md) · [Windows and reported cloud Linux reproduction file review (Chinese)](https://github.com/full-spectrum-lab/full-spectrum-commons/blob/main/docs/examples/evidence/three-act-20261012/reproduction-review.zh-CN.md). File review is not certification; original reproduction packages are retained locally, not downloadable from that review page.
 
